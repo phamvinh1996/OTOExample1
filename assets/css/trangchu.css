@@ -1,0 +1,1006 @@
+/* taxi liên tỉnh giá tốt */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f5f8;
+  padding: 10px;
+}
+
+.navbar-left {
+  flex-grow: 1;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-on1 {
+  /* font-size: 18px;
+    font-weight: bold;   */
+  position: relative;
+  left: 57px;
+  font-size: 15px;
+  font-weight: bold;
+  /* left: 280px; */
+  /* color: #575555; */
+
+}
+
+/* code css chữ taxi giá liên tỉnh */
+
+
+.navbar-link-lienhe {
+  position: absolute;
+  left: 73%;
+  color: #000;
+  top: 1%;
+}
+
+
+.navbar-link-FAQ {
+  position: absolute;
+  left: 77%;
+  color: #000;
+  top: 1%;
+}
+
+/* youtube  iocon*/
+
+.navbar-icon-yt {
+  position: absolute;
+  left: 82%;
+  top: 1%;
+}
+
+
+/*  */
+/*  */
+
+
+/* .navbar-icon-fb img{
+  
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 80%;
+  top: 1%;
+  
+  } */
+/* hình iconfb */
+.navbar-icon-fb {
+  position: absolute;
+  left: 80%;
+  top: 1%;
+}
+
+/*  */
+.navbar-text01 {
+
+  color: #898b8b;
+  position: relative;
+  left: 250px;
+  font-size: 15px;
+ 
+}
+
+
+.navbar-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+/* youtube */
+/* .navbar-icon img {
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+  
+   
+  }   */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  transform: skewX(10deg);
+  width: 7%;
+}
+
+/* logo  RIDEK... hotline...*/
+
+
+.container {
+  display: flex;
+  align-items: center;
+
+
+}
+/* khoảngcach */
+.logo-container {
+  margin-right: 383px;
+}
+
+
+/* logo */
+.logo-brand{
+    width: 170px;
+}
+/* logo ridek thanh */
+.logo {
+  width: 180px;
+
+  /* Adjust the width of the logo as per your needs */
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-right: px;
+}
+
+.icon {
+  width: 60px;
+  /* Adjust the width of the icons as per your needs */
+  height: 80px;
+  /* Adjust the height of the icons as per your needs */
+  margin-right: 20px;
+  /* Adjust the spacing between icons as per your needs */
+}
+
+.text {
+  font-size: 11px;
+  color: #929292;
+  position: relative;
+  left: 2%;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  display: block;
+}
+
+.text1 {
+  font-size: 13px;
+  color: #252525;
+  position: relative;
+  left: -21%;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+.text02 {
+  
+  color: #252525;
+  position: relative;
+  left: -13%;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+.text03 {
+  font-size: 18px;
+  color: #252525;
+  position: relative;
+  left: -14%;
+  
+  font-weight: bold;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tạo css thanh Nav ngang Trang chủ, ... */
+.navbar-yellow {
+    left: -10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff9900;
+    padding: 10px;
+    width: 30%;
+  
+  
+  
+    position: relative;
+    top: 43px;
+  
+  }
+  
+  /* kich co thanh nav trang chu... */
+  .navbar::before {
+    content: '';
+    /* Tạo một pseudo-element */
+    position: absolute;
+    /* Vị trí tuyệt đối */
+  
+    left: -3%;
+    /* Điều chỉnh theo left của navbar */
+    width: 101%;
+    /* Chiều rộng 100% */
+    height: 115%;
+    /* Chiều cao 100% */
+    background-color: inherit;
+    /* Màu nền giống với navbar */
+    clip-path: polygon(0 0, 100% 0, 500% 100%, 3% 100%);
+    /* Áp dụng clip-path */
+    z-index: -1;
+    /* Đảm bảo pseudo-element hiển thị phía sau phần tử navbar */
+  
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-right: 10px;
+  }
+  /* thanh nav chữ */
+  /* dấu ghạch chân thanh nav chữ */
+  
+  /* chữ trên thanh nav màu cam */
+  .menu li a {
+  
+    right: -28px;
+      top: 4px;
+      position: relative;
+  
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  
+  }
+  
+  .menu li a:hover {
+    border-bottom: 1px solid #ffffff;
+    font-weight: bold;
+  
+  }
+  
+  
+  
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .search-icon,
+  .menu-icon {
+    width: 95px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  
+  /* màu menu thanh NAV */
+  
+  
+  /*  */
+  /* code css tạo hiển thị menu trên thanh NAV trangchu........ */
+  div#offcanvasDarkNavbar {
+    background-color: #000000;
+    color: #f3ebeb;
+    width: 500px;
+  }
+  
+  .text-bg-dark h5,
+  .text-bg-dark p,
+  .text-bg-dark a {
+    color: #ffffff;
+  }
+  
+  /* nằm chèn mục liên hệ */
+  
+  
+  /* nút tìm kiếm thanh nav  */
+  /* nut tìm kiếm thanh nav trang chu... */
+  .search-icon img,
+  .menu-icon img {
+    float: left;
+    margin: 2px;
+    width: 63%;
+    height: 70%;
+    position: absolute;
+    top: 19%;
+    left: 47%;
+    filter: brightness(0) invert(1); 
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* nút search  nut tim kiem*/
+  
+  
+  .collapse {
+    display: none;
+    width: 200px;
+    /* Set the desired width */
+    height: 850px;
+    /* Set the desired height */
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  /* nút css menu trangchu... */
+  .navbar-toggler {
+    float: right;
+    margin: -127px;
+    width: 130px;
+    /* Set the desired width */
+    height: 40px;
+    /* Set the desired height */
+  
+  
+  
+  }
+  
+  
+  /* nút trên thanh nav màu cam trang chu, lien he */
+  
+  .dropdown-toggle.black-text,
+  .dropdown-menu .black-text {
+    /* color: #666; */
+    font-size: 15px;
+    top: 5px;
+      left: 6px;
+      position: relative;
+  color: #666;
+  }
+  .mau1{
+    color: #000;
+    background-color: #000;
+  }
+  
+  
+  
+  
+  
+  /* code css tạo comtact  thanh NAV TRANGCHU...*/
+  
+  .contact-nav {
+    position: absolute;
+    top: -25%;
+    /* Adjust the distance from the top as needed */
+    left: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    transform: skewX(0deg);
+    width: 13%;
+    /* Adjust the width as needed */
+    height: 78px;
+  }
+  
+  /* nut css  chinh kich co  thanh nav menu trang chu... */
+  .navbar {
+    transform: skewX(0deg);
+    width: 78%;
+    height: 30%;
+    z-index: 999;
+  
+  
+  }
+  
+  .navbar-brand img {
+    width: 50px;
+  }
+  
+  .navbar-text {
+    display: flex;
+    align-items: center;
+  
+  
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .navbar-text img {
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+    right: -61%;
+    position: absolute;
+  
+  }
+  
+  
+  /*  */
+  .navbar-text p {
+    margin: 0;
+    color: #f4f5f8;
+    display: inline-block;
+    margin: 0;
+    font-size: 20px;
+    /* Thay đổi kích thước chữ theo ý muốn */
+    white-space: nowrap;
+    /* Ngăn chữ xuống dòng */
+    overflow: hidden;
+    /* Ẩn nội dung dư thừa */
+    text-overflow: ellipsis;
+    /* Hiển thị dấu chấm 3 chấm (...) khi chữ bị cắt ngang */
+  
+  
+  
+    position: relative;
+    right: -100%;
+    top: 60%;
+  
+  }
+  
+  .contact-info {
+    margin-top: 10px;
+    color: #f4f5f8;
+    font-size: 20px;
+  }
+  
+  .content {
+    margin-top: 80px;
+    /* Đảm bảo nội dung không bị che phủ bởi thanh navbar */
+  
+  }
+  
+  /* code css độ dài thanh  nav tìm kiếm trangchu... */
+  
+  /* thanh css nut menu trangchu...*/
+  
+  .col-right-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar-colright {
+    height: 53px;
+    width: 53px;
+  }
+  
+  .nav.navbar.navbar-dark.bg-dark {
+    width: 50px;
+    
+    
+  
+  }
+  
+  
+  .container {
+    position: relative;
+  }
+  
+  
+
+  /* code css tạo nút search thanh nav */
+   .modal {
+    /* Position the modal in the center of the page */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(1%, -70%);
+  
+    /* Set the size of the modal */
+    width: 80%;
+    height: 80%;
+  
+    /* Add a z-index to ensure the modal is on top of other elements */
+    z-index: 9999;
+  
+    /* Add a white background */
+    background-color: #ffffff;
+  
+    /* Add some padding to the modal content */
+    padding: 20px;
+  
+    /* Add a border and border-radius to the modal */
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+  
+    /* Add a box-shadow to the modal */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  /* kích thước nút thanh search */
+  .modal-content {
+    top: 680px;
+    position: relative;
+  }
+  
+  
+
+  
+
+  
+
+/* dùng thư viện di chuyển trang book you */
+.carousel {
+    /* width: 110%; */
+    height: 640px;
+  }
+  
+  
+  .carousel-inner {
+    height: 100%;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-caption {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0%;
+    transform: translateY(-83%);
+    width: 70%;
+    padding-left: 15px;
+  }
+  
+  .carousel-caption h1 {
+  
+    margin-bottom: 20px;
+    color: #faf1f1;
+    text-align: start;
+    font-size: 47px;
+  
+    position: absolute;
+    left: 30%;
+  }
+  
+  .carousel-caption .img-car {
+    left: 1148px;
+    position: relative;
+    bottom: 220px;
+    width: 500px;
+  }
+  
+  /* code css tạo đường chéo book your */
+  .carousel-caption::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    bottom: 0%;
+    left: 89%;
+    width: 213px;
+    height: 220%;
+    transform: skew(-30deg);
+    background-color: #ff9900;
+    border-right: 4px solid transparent;
+  
+  }
+  
+  .section-onlinecar .img-car {
+    position: absolute;
+    width: 350px;
+    right: -250px;
+    top: -100px;
+  }
+  
+  /* code css tạo hình chữ nhật đứng màu đen */
+  
+  
+  .chunhat1 {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%) rotate(30deg) skewY(-28deg);
+    width: 100px;
+    height: 850px;
+    background-color: rgb(17, 16, 14);
+    z-index: 1;
+  }
+  
+  
+  .container {
+    position: relative;
+  }
+  
+  
+  
+  .chunhatden {
+    position: absolute;
+    top: -5%;
+    left: 134%;
+    transform: translate(-50%, -50%) rotate(29deg) skewY(-27deg);
+    width: 100px;
+    height: 650px;
+    background-color: rgb(8, 7, 5);
+  
+  }
+  
+  /* code css màu chữ book you p */
+  
+  /*  */
+  /* button */
+  /* .btn-view-more {
+    float: left;
+    left: 1%;
+    width: 19%;
+    height: 48px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900; */
+    /* Màu cam */
+    /* color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 72px;
+  } */
+  /* 
+  .btn-view-more:hover {
+    background-color: darkorange;
+    
+  } */
+  /* NÚT LIÊN HỆ BOOK YOUR */
+  .btn-view-more {
+    background-color: orange;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    float: left;
+    left: 1%;
+    width: 20%;
+    border-radius: 5px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 72px;
+  }
+  
+  .btn-view-more:hover {
+    background-color: black;
+    color: orange;
+  }
+  
+  
+  
+  
+  
+  /* code css chuyển động qua trang book */
+  .carousel-caption {
+    position: absolute;
+    top: 56%;
+    /* left: 100%; */
+    width: 50%;
+    height: 50%;
+    /* transform: translate(40%, 40%);  */
+  
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    *
+  }
+  
+  .carousel-item.active .carousel-caption {
+    opacity: 1;
+  
+    
+  }
+  /*  */
+  
+  
+  
+  
+  /* CODE THE BOOK 1/2 */
+  .carousel-indicators li:after {
+    content: "/2";
+    font-size: 16px;
+    color: #666666;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  
+  .active{
+    font-family: "Space Grotesk", sans-serif;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .carousel-caption h1 {
+    font-weight: bold;
+    left: 40%;
+    margin-bottom: -7px;
+    animation: slide-up 0.5s ease forwards;
+    text-align: text;
+    position: relative;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 52px;
+    top: 13px;
+  
+  }
+  
+  
+  .carousel-caption p {
+    font-size: 18px;
+    animation: slide-up 0.5s ease 0.3s forwards;
+    text-align: text;
+    position: relative;
+    left: 24%;
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  
+  /* Travel securely with us THE BOOK */
+  .doct1 {
+    position: relative;
+    left: -43%;
+    top: 1%;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+  }
+  
+  
+  
+  .carousel-caption .btn-view-more {
+    font-size: 16px;
+    animation: slide-up 0.5s ease 0.6s forwards;
+  }
+  
+  .carousel-caption .img-car {
+    position: absolute;
+    width: 675px;
+    height: auto;
+    /* right: 100%; */
+    top: -99px;
+  
+    opacity: 0;
+    animation: drive-in 1s ease 0.9s forwards;
+  }
+  
+  @keyframes slide-up {
+    from {
+      transform: translate(-50%, 50%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translate(-50%, -50%);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes drive-in {
+    from {
+      transform: translate(100%, -50%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translate(-50%, -50%);
+      opacity: 1;
+    }
+  }
+  
+  /* code css chỉnh nút button book */
+  
+  /* nút chỉnh butoon  book your */
+  .button-carousel {
+    position: relative;
+    bottom: 58px;
+    height: 47px;
+    top: 18%;
+    left: 10%;
+    text-align: center;
+    width: 270px;
+  
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    bottom: 20px;
+    /* Điều chỉnh khoảng cách từ nút đến phía dưới của trang */
+    left: 130px;
+    /* Điều chỉnh khoảng cách từ nút đến phía trái của trang */
+    background-color: black;
+    /* Đặt màu nền của nút là trắng */
+    border: none;
+    /* Xóa viền của nút */
+    color: black;
+    /* Đặt màu chữ là đen */
+    padding: 20px;
+    /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
+    position: fixed;
+    top: 30%;
+  
+  }
+  
+  /* code chu pre - next */
+  .previous-word {
+    font-size: 16px;
+    color: black;
+    z-index: 1;
+    position: relative;
+    left: 7%;
+  }
+  
+  .next-word {
+    font-size: 16px;
+    z-index: 1;
+    position: relative;
+    color: black;
+    right: 7%;
+  
+  }
+  
+  .page-number {
+    color: orangered;
+    font-size: 20px;
+    z-index: 1;
+    position: relative;
+    right: 7%;
+  }
+  .page-number1{
+   font-size: 30px;
+    color: orangered;
+    z-index: 1;
+    position: relative;
+    right: 7%;
+  }
+  
+  button.carousel-control-prev {
+    width: 100px;
+    position: absolute;
+    left: -9%;
+  }
+  
+  button.carousel-control-next {
+    width: 100px;
+    position: absolute;
+    left: 60%;
+  }
+  
+  
+  /* code hiện số trang */
+  
+  
+  
+  
+  /*  code css màu nút button book*/
+  .button-carousel button {
+    /* background-color: black; */
+    background-color: whitesmoke;
+    /* Đặt màu nền của nút là đen */
+    color: black;
+    /* Đặt màu chữ là trắng */
+    border: none;
+    /* Xóa viền của nút */
+    padding: 10px;
+    /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
+  }
+  
+  
+  .button-carousel button:hover {
+    background-color: darkgray;
+    /* Thay đổi màu nền của nút khi di chuột qua */
+  }
+  
+  .button-carousel button:focus {
+    outline: none;
+    /* Xóa viền xung quanh nút khi được tập trung */
+  }
+  
+  /* clip path cắt ảnh boook you */
+  .carousel-caption::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 700px;
+    height: 90px;
+    top: 93%;
+    right: 90%;
+    left: -55%;
+    background-color: #f4f5f8;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
+  
+  }
+  
+  .search-bar {
+    left: 0px;
+    position: relative;
+  }
+  
+  .nav-menu {
+    position: relative;
+    left: 550px;
+    width: 60%;
+  }
+  
+  
+
+/* phần code css số trang BOOK */
+
+#carouselExampleFade .carousel-indicators li {
+    right: -93px;
+      position: relative;
+    height: auto;
+    color: orange;
+    background-color: transparent;
+    width: auto;
+    background-clip: unset;
+    text-indent: 0;
+    
+  }
+  
+  #carouselExampleFade .carousel-indicators li:not(.active) {
+    display: none;
+  
+  }
+  
+  
+  #carouselExampleFade .carousel-indicators{
+    position: absolute;
+    left: -1400px;
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+  
+  }
+  
+
+
+
+

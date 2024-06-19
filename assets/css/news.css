@@ -1,0 +1,385 @@
+.container {
+    display: flex;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    /* Kiểu dáng cho nội dung chính */
+  }
+  
+  .sidebar {
+    width: 300px;
+    /* Kiểu dáng cho phần aside */
+  }
+  
+  .search-widget,
+  .recent-posts-widget {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-top: 0;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #808080;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  /* 3 nút */
+
+  .main-content {
+    /* Kiểu dáng cho nội dung chính */
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: right;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #54575a;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #3a3b3b;
+  }
+
+  /*  */
+
+  .centered-text {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    top: 133%;
+    transform: translate(45%);
+    position: absolute;
+  }
+  
+  .centered-h1 {
+    text-align: left;
+    top: -2060%;
+    transform: translate(-20%);
+    position: absolute;
+  }
+  .centered-p{
+    text-align: left;
+    top: -1770%;
+    transform: translate(-151%);
+    position: absolute;
+  }
+  /* tạo chỉnh css cart picture */
+  
+/*  */
+
+  .col-md-4 {
+    
+     order: 2; 
+    top: -290px;
+     transform: translate(-100%); 
+    position: relative; 
+    display: inline-block;
+    width: calc(50% - 10px); 
+    margin-left: 50px;
+     margin-bottom: 30px;
+  }
+
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;
+   
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  /*  */
+
+  .col-md-4-picture{
+    order: 2; 
+    top: 250px;
+     transform: translate(-13%); 
+    position: absolute; 
+  }
+
+  
+  /* code css bài viết mới   */
+  .img-right-col-new {
+    width: 90px;
+  }
+
+  .right-col-new {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+
+  /* footer */
+
+
+  #subscribeBtn {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+  /* icon car footer css */
+
+/* chữ trắng foter */
+
+
+.description01 {
+  position: absolute;
+  top: 26px;
+  left: 134px;
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  
+}
+  
+/* code css tạo chuyển động xe ô tô */
+.icon-car-02 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  top: 175px;
+  position: relative;
+  
+}
+
+
+.icon-car-02 .car1 {
+  animation: carAnimation 6s linear infinite;
+}
+@keyframes carAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.icon-car-02 .car2 {
+  animation: carAnimation2 6s linear infinite;
+}
+
+@keyframes carAnimation2 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.icon-car-02 .car3 {
+  animation: carAnimation3 6s linear infinite;
+}
+
+@keyframes carAnimation3 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+/* nút hotline footer */
+.hotline-02 {
+  position: absolute;
+  top: -11%;
+  right: -33%;
+  background-color: #ff9900;
+  padding: 10px;
+  width: 700px;
+  /* Đặt chiều rộng mong muốn */
+  height: 110px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  /* transform: skewX(10deg); */
+  /* transform-origin: bottom right; */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
+  /* tạo thanh nav có đường viền */
+  background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+  background-size: 10px 10px;
+}
+
+
+
+/* thanh nav  */
+
+.white-text001 {
+  color: white;
+  position: relative;
+  transform: translateX(107%);
+  position: absolute;
+  right: -3%;
+  top: -46;
+}
+
+
+
+/* trang cuộn xuống */
+/* CODE TẠO THANH CUỘN XUỐNG */
+
+.scroll-navbar {
+  height: 80px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.scroll-navbar .container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.scroll-navbar .navbar-brand img {
+  height: 40px;
+}
+
+.side-navbar {
+  height: 80px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  /* display: none; */
+
+
+}
+
+.side-navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.side-navbar li {
+  margin-right: 20px;
+}
+
+.side-navbar a {
+  color: black;
+  text-decoration: none;
+}
+.logo000{
+
+  position: absolute;
+  left: 190px;
+  top: 10px;
+}
+
+
+
+
+
+
+
+
+.side-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: white;
+  color: black;
+}
+
+.side-navbar {
+  display: none;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+.side-navbar.show {
+  display: block;
+  /* Hiển thị khi cuộn đủ 200px */
+}
+
+.side-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-navbar li {
+  margin-right: 20px;
+}
+
+.side-navbar a {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+/* mục liện hệ  THANH CUỘN*/
+
+.contact-nav111{
+  position: absolute;
+  top: 9%;
+  /* Adjust the distance from the top as needed */
+  left: 83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  transform: skewX(0deg);
+  width: 10%;
+  /* Adjust the width as needed */
+  height: 63px;
+
+
+}
+
+
+.navbar-toggler01{
+  color: white;
+  background-color: black;
+  right: -211px;
+    top: 21px;
+    position: absolute;
+}

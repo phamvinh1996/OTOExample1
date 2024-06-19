@@ -1,0 +1,287 @@
+
+/* logo  */
+.logo-container {
+  width: 150px; /* Điều chỉnh chiều rộng của logo container */
+  height: 50px; /* Điều chỉnh chiều cao của logo container */
+}
+
+.logo {
+  width: 100%; /* Kích thước logo theo chiều rộng của container */
+  height: 100%; /* Kích thước logo theo chiều cao của container */
+}
+
+
+
+
+
+/* code css taxi ho chi minh */
+.form-group.demonew img {
+    width: 130%;
+    height: 100%;
+  }
+
+/*  */
+
+
+.navbar-12 {
+    background-color: orange;
+    color: white;
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+
+    top: 1%;
+    position: absolute; 
+  }
+
+  /* tạo css tạo di chuyển ảnh */
+
+
+  /* dòng chữ h1 */
+
+
+  h1, p {
+    text-align: center;
+  }
+
+  /* tạo css cart ảnh di chuyển */
+
+
+
+
+/* code css tạo logo thanh nav */
+  .logo {
+    width: 143px;
+    margin-right: 10px;
+  }
+
+  .name-company {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .cart {
+    width: 500px;
+    height: 350px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .description {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .cart-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .cart-logo img {
+    margin-right: 5px;
+  }
+  .description  {
+    color: black;
+    text-align: center; /* Căn đều ngang hàng */
+  }
+
+
+
+
+  /*  code chỉnh ảnh di chuyển pre*/
+   
+
+
+ 
+  .content {
+    display: flex;
+    /* overflow-x: auto; */
+  }
+  
+  .cart {
+    width:  -80%;
+    flex-shrink: 0;
+    margin-right: -550px;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    white-space: nowrap;
+  }
+  
+  .prev,
+  .next {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+  /* màu chữ trắng footer */
+  
+  .description-1{
+    color: white;
+  }
+
+
+  /* code hotline footer */
+
+  
+.hotline-05 {
+  position: absolute;
+  top: -11%;
+  right: -33%;
+  background-color: #ff9900;
+  padding: 10px;
+  width: 700px;
+  /* Đặt chiều rộng mong muốn */
+  height: 110px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  /* transform: skewX(10deg); */
+  /* transform-origin: bottom right; */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
+  /* tạo thanh nav có đường viền */
+  background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+  background-size: 10px 10px;
+}
+
+/* code xe chuyen dong footer */
+
+
+
+/* code css tạo chuyển động xe ô tô */
+.icon-car-06 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  top: 155px;
+  position: relative;
+
+}
+
+.icon-car-06 .car1 {
+  animation: carAnimation 6s linear infinite;
+}
+
+@keyframes carAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.icon-car-06 .car2 {
+  animation: carAnimation2 6s linear infinite;
+}
+
+@keyframes carAnimation2 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.icon-car-06 .car3 {
+  animation: carAnimation3 6s linear infinite;
+}
+
+@keyframes carAnimation3 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+/* thanh nav */
+.white-text001 {
+  color: white;
+  position: relative;
+  transform: translateX(107%);
+  position: absolute;
+  right: -3%;
+  top: -46;
+}
+
+/* ảnh taxi ho chi minh */
+
+.ing1{
+  width: 90px;
+  border: 1px solid black;
+  border-radius: 50px;
+
+}
+
+
+
+
+/* mục liện hệ  THANH CUỘN*/
+
+.contact-nav111{
+  position: absolute;
+  top: 9%;
+  /* Adjust the distance from the top as needed */
+  left: 83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  transform: skewX(0deg);
+  width: 10%;
+  /* Adjust the width as needed */
+  height: 63px;
+
+
+}
+
+
+.navbar-toggler01{
+  color: white;
+  background-color: black;
+  right: -211px;
+    top: 21px;
+    position: absolute;
+}
