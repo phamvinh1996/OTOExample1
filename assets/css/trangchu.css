@@ -1089,7 +1089,7 @@ img {
   display: flex;
   line-height: 16px;
   top: -13px;
-  left: -274px;
+  left: -21px;
 }
 
 .section-heading h4 span,
@@ -1357,9 +1357,9 @@ p {
 .ceo101{
 
   position: relative;
-  left: -312px;
+  left: -2px;
 border-radius: 90px;
-width: 100px;
+width: 93px;
 }
 
 
@@ -1394,6 +1394,598 @@ img.image-car2 {
   top: 84px;
   position: relative;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dịch vụ nỗi bật css */
+
+/* CODE DỊCH VỤ NỖI BẬT */
+.overlay-image {
+  animation-play-state: paused;
+}
+
+.cover-image {
+  background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 500px;
+  /* width: 1900px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(227, 215, 215);
+  top: 118px;
+  position: relative;
+}
+
+/* chữ màu cam */
+
+/* carrt anhr chen anh banner dich vu noi bat */
+.cart-service {
+  position: relative;
+  bottom: 140px;
+}
+
+.cover-image .text {
+  font-size: 36px;
+  position: relative;
+  top: -39%;
+}
+
+.cover-image .textdichvunoibat {
+  color: #f7eded;
+  position: relative;
+  top: -51px;
+  left: -50px;
+  /* Màu chữ trắng */
+}
+
+.container .card h2 {
+  color: #0a0909;
+  /* Màu chữ trắng */
+}
+
+.cover-image p {
+  font-size: 17px;
+  margin-top: -23px;
+  font-family: "Space Grotesk", sans-serif;
+  color: rgb(221, 221, 221);
+
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 360px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card-banner {}
+
+.car-in-card {
+  width: 150%;
+  border-radius: 8px;
+
+}
+
+.card h2 {
+  font-size: 22px;
+  margin-left: 161px;
+  text-align: left;
+}
+
+.card p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 10px;
+
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #ff9900;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgb(190, 97, 17);
+}
+
+
+/* code css what we offter */
+
+.text1{
+
+  position: relative;
+  top: 1px;
+}
+
+.vuong1{
+  position: relative;
+  top: 10px;
+}
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tạo css nút chuyển trang  dịch vụ nổi bật*/
+.card-navigation {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-70%);
+
+}
+
+/* kich co anh css cart picture */
+
+.card-image {
+  width: 100%;
+  height: auto;
+
+}
+
+
+
+.card-image2 {
+  width: 65%;
+  height: auto;
+  position: absolute;
+  float: right;
+  bottom: -17px;
+  right: -6%;
+  z-index: 3;
+}
+
+/* hiệu ứng css xe car dịch vụ nỗi bật */
+
+.card-image2:hover {
+  animation: imageEffect 0.5s ease-in-out;
+}
+
+@keyframes imageEffect {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* nút xem thêm dịch vụ nỗi bật */
+
+
+/* Nut xem them dich vu noi bat */
+.nutxemthem {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  top: 8px;
+position: relative;
+left: -418px;
+  transition: background-color 0.3s ease;
+    /* cắt nút bên phải button */
+ clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
+}
+
+.nutxemthem:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+/* canh chữ dòng chữ nỗi bật*/
+
+.card-bottom {
+  display: inline-block;
+}
+
+/* code css tạo đặt carousel cart ảnh dịch vụ */
+
+
+/* nút di chuyển trang */
+
+.triangle-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.triangle-button {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+.arrow-left,
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-2600%);
+  background-color: orange;
+}
+
+.arrow-left {
+  border-right: 12px solid rgb(15, 10, 10);
+  left: 320px;
+
+}
+
+.arrow-right {
+  border-left: 12px solid rgb(31, 20, 20);
+  right: -1300px;
+}
+
+.container {
+  position: relative;
+}
+
+.vuongvang {
+  position: absolute;
+  top: 53%;
+  left: 72%;
+  transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
+  width: 80px;
+  height: 150px;
+  background-color: #ff9900;
+  z-index: 1;
+}
+
+.vuongden1 {
+  position: absolute;
+  top: 65%;
+  left: 59%;
+  transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
+  width: 69px;
+  height: 120px;
+  background-color: rgb(22, 20, 14);
+  z-index: 2;
+}
+
+.vuongden2 {
+  position: absolute;
+  top: 66%;
+  left: 83%;
+  transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
+  width: 49px;
+  height: 120px;
+  background-color: rgb(22, 20, 14);
+  z-index: 2;
+}
+
+
+.card-top {
+  position: relative;
+}
+
+/* hiệu ứng 1 */
+
+.vuongden1:hover {
+  animation: imageEffect 0.5s ease-in-out;
+}
+
+@keyframes imageEffect {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* hiệu ứng 2 */
+
+
+.vuongden2:hover {
+  animation: imageEffect 0.5s ease-in-out;
+}
+
+@keyframes imageEffect {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+.vuongvang:hover {
+  animation: imageEffect 0.5s ease-in-out;
+}
+
+@keyframes imageEffect {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* hiệu ứng dịch vụ nổi bật */
+
+/* code hiệu ứng dịch vụ nỗi bật */
+
+.container:hover .vuongvang,
+.container:hover .vuongden1,
+.container:hover .vuongden2,
+.container:hover .card-image2,
+.container:hover~.triangle-buttons {
+  animation: effectAnimation 0.5s ease-in-out;
+}
+
+@keyframes effectAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* dau 3 chấm nút di chuyển dịch vụ nỗi bâtj */
+
+
+.slider {
+  position: relative;
+}
+
+.dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #160b75;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.slick-active {
+  background-color: #000;
+}
+
+
+/*  */
+
+
+
+.section-heading001 {
+  position: relative;
+}
+
+.section-heading001 h4 {
+  position: relative;
+  color: #f90;
+  padding-left: 193px;
+  display: flex;
+  line-height: 16px;
+  top: -58px;
+  font-size: 17px;
+}
+
+.section-heading001 h4 span,
+.section-heading001 h4 span:before,
+.section-heading001 h4 span::after {
+  background-color: #f90;
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+}
+
+.section-heading001 h4 span {
+  top: 1px;
+  position: absolute;
+  left: 170px;
+  transform: skew(-20deg, 0deg);
+}
+
+.section-heading001 h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+}
+
+.section-heading001 h4 span:before {
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+}
+
+
+
+
+
+
+/* choosee taxi dấu chấm */
+
+
+.card{
+  position: relative;
+  background-color: #ffffff; /* Mã màu cho màu trắng (#ffffff) */
+}
+.slick-slide {
+  border: 1px solid #ccc;
+}
+
+.slick-dots {
+  display: flex;
+  margin-top: 35px;
+  padding-left: 0;
+  margin-bottom: 0;
+  padding-left: 590px;
+}
+.slick-dots li {
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  cursor: pointer;
+
+}
+
+ .slick-dots > li:not(:last-of-type) {
+  margin-right: 8px;
+}
+.slick-dots li button {
+  font-size: 0;
+  padding: 0;
+}
+.slick-dots li.slick-active {
+  background-color: #ff9900;
+  box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.5);
+}
+.slick-slide .comment p {
+  margin-bottom: 24px;
+}
+
+.slick-slide .user-info {
+  display: flex;
+}
+
+.slick-slide .user-info .avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+  overflow: hidden;
+
+}
+.slick-slide .user-info .avatar img {
+  width: 100%;
+  height: 100%;
+}
+.slick-slide .company-info {
+   flex-grow: 1;
+  align-self: center;  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
