@@ -1975,8 +1975,15 @@ left: -418px;
 
 
 
-
-
+/* nút button dich vu noi bat */
+button {
+  background-color: #ff9900;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 
 
