@@ -1959,7 +1959,19 @@ left: -418px;
   align-self: center;  
 
 }
+/* dich vu noi bat pre */
+.cart-service .slick-prev {
 
+  left: 100%;
+  position: absolute;
+  top: 53%;
+}
+
+.cart-service .slick-next {
+  left: -5%;
+  position: absolute;
+  top: 52%;
+}
 
 
 
