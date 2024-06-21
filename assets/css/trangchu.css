@@ -39,6 +39,7 @@
 }
 
 
+
 .navbar-link-FAQ {
   position: absolute;
   left: 77%;
@@ -305,6 +306,8 @@
     height: 50px;
     cursor: pointer;
     margin-left: 10px;
+
+
   }
   
   
@@ -658,29 +661,6 @@
   
   /* code css màu chữ book you p */
   
-  /*  */
-  /* button */
-  /* .btn-view-more {
-    float: left;
-    left: 1%;
-    width: 19%;
-    height: 48px;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff9900; */
-    /* Màu cam */
-    /* color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-    position: absolute;
-    margin-top: 72px;
-  } */
-  /* 
-  .btn-view-more:hover {
-    background-color: darkorange;
-    
-  } */
   /* NÚT LIÊN HỆ BOOK YOUR */
   .btn-view-more {
     background-color: orange;
@@ -1495,7 +1475,7 @@ img.image-car2 {
 
 .card h2 {
   font-size: 22px;
-  margin-left: 161px;
+  margin-left: 91px;
   text-align: left;
 }
 
@@ -1999,12 +1979,265 @@ button {
 
 
 
+/*  */
+/* ĐẶT XE NHANH */
+
+/* .orange-text {
+    color: orange;
+  } */
+
+  .section-heading06 {
+    position: relative;
+  }
+  
+  .section-heading06 h4 {
+    position: relative;
+    color: #f90;
+     padding-left: 63px; 
+    display: flex;
+    line-height: 16px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    top: -39px;
+  }
+  
+  .section-heading06 h4 span,
+  .section-heading06 h4 span:before,
+  .section-heading06 h4 span::after {
+    background-color: #f90;
+    width: 5px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    top: 1%;
+  }
+  /* dau 3 ghach */
+  .section-heading06 h4 span {
+    top: -1px;
+    position: absolute;
+    left: 30px;
+    transform: skew(-20deg, 0deg);
+  }
+  
+  .section-heading06 h4 span:after {
+    content: "";
+    left: -10px;
+    opacity: 0.5;
+  }
+  
+  .section-heading06 h4 span:before {
+    content: "";
+    left: -20px;
+    opacity: 0.2;
+  }
+  
+  .section-online-booking h3 {
+    left: 3px;
+    font-size: 30px;
+    position: relative;
+    color: #e8dede;
+    top: -28px;
+    /* Màu chữ trắng */
+  }
+  
+  .section-online-booking::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    background-color: #da7b0f;
+  }
+  
+  
+  /* đặt màu css button */
+  .btn.btn-primary {
+    background-color: #333333;
+  }
+  
+  /* chữ màu chữ đen button */
+  .btn.btn-primary {
+    color: white;
+  }
+  
+  /* clip path cắt ảnh */
+  .section-online-booking::after {
+  
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 80px;
+    background-color: #f4f5f8;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
+  }
+  
+  .section-online-booking .img-car {
+    position: absolute;
+    width: 653px;
+    left: -257px;
+    top: 1px;
+  }
+  
+  .section-online-booking {
+    background-color: #1c1c1c;
+    background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/texture.png');
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 107px 0;
+  }
+  
+  
+  
+  
+  /* biểu tượng đặt xe nhanh */
+  
+  .input-group-text-1 {
+    position: absolute;
+    left: 78%;
+    top: 51%;
+  }
+  
+  .input-group-text-2 {
+    position: absolute;
+    left: -599%;
+    top: 51%;
+  }
+  
+  .input-group-text-3 {
+    position: absolute;
+    left: 33%;
+    top: 51%;
+  }
+  
+  .input-group-text-4 {
+    position: absolute;
+    left: 63%;
+    top: 51%;
+  }
+  
+  .input-group-online-5 {
+    position: absolute;
+    left: 60%;
+    top: 51%;
+  }
+  
+  .input-group-text-6 {
+    position: absolute;
+    left: -243%;
+    top: -6%;
+  }
+  
+  .input-group-text-7 {
+    position: absolute;
+    left: 97%;
+    top: 16%;
+  }
+  
+  
+  .input-group-text-8 {
+    position: absolute;
+    left: 90%;
+    top: 51%;
+  }
+  
+  /* code css tạo đặt xe nhanh */
+  
+  /* code css mauf form */
+  /* form thẻ icon */
+  .section-online-booking .form-field {
+    position: relative;
+  }
+  
+  .section-online-booking .form-field i {
+    position: absolute;
+    font-size: 18px;
+    right: 10px;
+    color: #f90;
+    top: 50%;
+    transform: translateY(-50%);
+
+  }
+  
+  
 
 
 
 
 
 
+
+  
+  /*  */
+  
+  
+  /* khi trỏ màu cam dropdown đặt xe nhanh */
+  
+  
+  
+  
+  /*  */
+  .section-online-booking .form-control{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 14px 38px 14px 24px;
+    height: auto;
+    border-radius: 0;
+    color: white;
+    background-color: #333333;
+    border-color: transparent;
+    outline: 0;
+  
+  
+    
+  }
+  
+  .section-online-booking .form-control:focus {
+    border-color: #f90;
+    outline: 0;
+    box-shadow: none;
+    color: white;
+    background-color: #333333;
+  
+  }
+  
+  .section-online-booking .form-row>[class*=col-] {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+  
+  } 
+  
+  
+  
+  
+  
+  /* button đặt xe nhanh */
+  
+  .sumit1 {
+    width: 267px;
+    background-color: #333333;
+    height: 53px;
+  }
+  
+  
+  
+
+  
+  /* code css mauf icon */
+  
+  
+  
+  
+  /* tạo kích cỡ lịch */
+  
+
+
+
+ 
 
 
 
