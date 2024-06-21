@@ -2329,7 +2329,7 @@ button {
   padding-left: 797px;
   display: flex;
   line-height: 16px;
-  top: 1px;
+  top: 76px;
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -2636,6 +2636,7 @@ color: #000;
 
   right: -759px;
     position: relative;
+    top: 98px;
 }
 
 
@@ -2764,6 +2765,35 @@ color: #000;
   top: 25px;
   color: #000;
 }
+
+
+
+/* chữ p choosee taxi */
+.chooseetaxi1{
+
+position: relative;
+top: 92px;
+
+}
+
+.chooseetaxi2{
+
+
+
+  position: relative;
+  top: 78px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
