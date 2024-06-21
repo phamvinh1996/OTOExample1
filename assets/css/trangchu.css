@@ -2980,7 +2980,256 @@ top: 92px;
   .slick-dots li.slick-active button {
     background-color: #fff;
   }
-     */
+     
+
+
+
+     
+
+
+/*  */
+/*  Get the Ridek Mobile app and Start Your Journey!*/
+/* tạo dòng chữ get the ridex mobile */
+.section-online-book {
+  /* Các thuộc tính CSS khác cho phần tử .section */
+  /* background-image: url("/assets/images/taxi-background.png");
+      background-size: cover;
+      background-repeat: repeat;
+      background-position: right; */
+}
+
+.xeoto {
+  margin-left: 189px;
+  position: absolute;
+  top: 35%;
+}
+
+.people {
+  margin-right: 201px;
+  width: 180px;
+  height: 392px;
+  margin-top: 56px;
+}
+
+.demo2 {
+  background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/taxi-background.png");
+  background-size: contain;
+  width: 889px;
+  height: 550px;
+  right: 156px;
+  top: 47px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.upper-alert-box {
+  height: 70px;
+}
+
+.section-online-book {
+  background-color: #f2f2f2;
+  padding: 30px;
+  top: 154px;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  margin-right: 70px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  white-space: pre-line;
+
+
+}
+
+p {
+  font-size: 17px;
+  margin-bottom: 27px;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+
+
+  text-align: left;
+  /* white-space: pre-line; */
+  font-family: "Space Grotesk", sans-serif;
+
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.image-item {
+  text-align: center;
+}
+
+.image-item img {
+  /* width: 50px; */
+  height: 63px;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+
+
+}
+
+.image-button {
+  margin: 0 20px;
+
+
+  left: -33px;
+  position: relative;
+}
+
+.car-image {
+  width: 291px;
+  left: 31%;
+  height: auto;
+  margin-bottom: 10px;
+  position: absolute;
+  top: -50px;
+}
+
+.phone-image {
+  position: absolute;
+  width: 80px;
+  float: right;
+  left: 55%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.container .row .col-sm-6 h2 {
+  color: black;
+
+}
+
+h2 {
+  color: black;
+  font-family: "Space Grotesk", sans-serif;
+  left: -3px;
+  position: relative; 
+}
+
+/* dòng chữ xuống hàng get ridek*/
+
+.col-6.get-app {
+  display: flex;
+  align-items: center;
+
+}
+
+/* nút button tải google play xuống hàng */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-top: 57px;  */
+
+
+}
+
+.image-button {
+  flex: 0 0 30%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: cover;
+}
+
+.image-button img {
+  max-width: 200%;
+  height: auto;
+}
+
+.overlay-image {
+  position: relative;
+
+  left: 622px;
+  top: 69px;
+  /* Giá trị số âm để di chuyển hình ảnh lên trên */
+}
+
+/* dòng chữ Get the ridek */
+
+
+.new1{
+  position: relative;
+  left:  80px;
+}
+
+/* chữ màu cam ridek */
+
+.section-heading08 {
+  position: relative;
+}
+
+.section-heading08 h4 {
+  position: relative;
+  color: #f90;
+  padding-left: 60px;
+  display: flex;
+  line-height: 16px;
+  top: 1px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+
+}
+
+.section-heading08 h4 span,
+.section-heading08 h4 span:before,
+.section-heading08 h4 span::after {
+  background-color: #f90;
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+
+}
+
+.section-heading08 h4 span {
+  top: 1px;
+  position: absolute;
+  left: 35px;
+  transform: skew(-20deg, 0deg);
+}
+
+.section-heading08 h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+}
+
+.section-heading08 h4 span:before {
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+}
+
+
+
+
+
+
+
+
 
 
 
