@@ -2180,7 +2180,9 @@ button {
   
   
   /*  */
-  .section-online-booking .form-control{
+  .section-online-booking .form-control
+  
+  {
     font-size: 16px;
     line-height: 24px;
     padding: 14px 38px 14px 24px;
@@ -2236,16 +2238,707 @@ button {
   
 
 
-  .select2-container--default .select2-selection--single .select2-selection__rendered {
+  .select2-container--default 
+  .select2-selection--single 
+  .select2-selection__rendered {
     background-color: #333;
-    color: #444;
     line-height: 28px;
     height: 52px;
-}
+    color: white;
+    
+} 
  
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* màu button */
+/* TẠO DÒNG CHỮ CHOOSE TATXI */
+
+
+.centered-text {
+  text-align: center;
+}
+
+.centered-text h1 {
+  color: #130e0e;
+}
+
+
+/*  choosee taxi chữ màu cam*/
+
+.section-heading07 {
+  position: relative;
+}
+
+.section-heading07 h4 {
+  position: relative;
+  color: #f90;
+  padding-left: 797px;
+  display: flex;
+  line-height: 16px;
+  top: 1px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section-heading07 h4 span,
+.section-heading07 h4 span:before,
+.section-heading07 h4 span::after {
+  background-color: #f90;
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+}
+
+.section-heading07 h4 span {
+  top: 1px;
+  position: absolute;
+  left: 753px;
+  transform: skew(-20deg, 0deg);
+}
+
+.section-heading07 h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+}
+
+.section-heading07 h4 span:before {
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+}
+
+/* button choossee taxi */
+
+
+
+/* CARD CHOOSEETAIXI */
+
+
+
+
+/* General Styles */
+.container {
+  margin-top: 2rem;
+}
+
+/* Nav Tabs */
+.nav-tabs {
+  border-bottom: none;
+  justify-content: center;
+  margin-bottom: 2rem;
+  /* right: -491px;
+  top: -222px; */
+  position: relative;
+}
+
+.nav-link {
+  color: #333;
+  border: none;
+  border-radius: 0;
+  padding: 0.75rem 1.5rem;
+}
+
+.nav-link.active {
+  background-color: orange;
+  color: #fff;
+  border: none;
+}
+/* card ảnh  choosseetaxi */
+
+.gia1{
+  position: relative;
+  right: -79px;
+  
+}
+.gia2{
+  position: relative;
+  right: -96px;
+}
+.gia3{
+  position: relative;
+  right: -110px;
+}
+
+.gia4{
+  position: relative;
+  right: -110px;
+}
+
+.gia5{
+  position: relative;
+  right: -128px; 
+}
+
+.gia6{
+  position: relative;
+  right: -139px; 
+}
+.gia7{
+  position: relative;
+  right: -103px; 
+}
+.gia8{
+  position: relative;
+  right: -121px; 
+}
+.gia9{
+
+  position: relative;
+  right: -133px; 
+}
+
+.gia10{
+  position: relative;
+  right: -111px; 
+}
+.gia11{
+  position: relative;
+  right: -139px; 
+}
+.gia12{
+  position: relative;
+  right: -127px;   
+}
+.gia13{
+  position: relative;
+  right: -119px;   
+}
+.gia14{
+
+  position: relative;
+  right: -148px;  
+}
+.gia15{
+  position: relative;
+  right: -148px;
+}
+.gia16{
+
+  position: relative;
+  right: -111px; 
+}
+.gia17{
+  position: relative;
+  right: -139px; 
+}
+.gia18{
+  position: relative;
+  right: -139px;
+}
+
+/* card chữ choosee taxi */
+.card-text1{
+
+  position: relative;
+  left: -47px;
+}
+
+.card-text2{
+
+  position: relative;
+  left: -64px;
+}
+
+.card-text3{
+  position: relative;
+  left: -69px;
+}
+
+.card-text4{
+  position: relative;
+  left: -70px;
+}
+
+.card-text5{
+  position: relative;
+  left: -70px;
+}
+
+.card-text6{
+  position: relative;
+  left: -70px;
+}
+
+
+
+/* choossee taxi */
+/* card right taxi */
+.card {
+  right: -63px;
+  position: absolute;
+  top: 10px;
+  width: 365px;
+}
+
+
+
+
+
+
+
+/* Cards */
+.card {
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  margin-bottom: 2rem;
+  top: 117px;
+  position: relative;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+
+}
+
+.card-text {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn-primary {
+  background-color: orange;
+  border-color: orange;
+}
+
+.btn-primary:hover {
+  background-color: orange;
+  border-color: orange;
+}
+
+/* code HUYNHDAI */
+.huynhdai0{
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+  width: 330px;
+  height: 200%;
+}
+
+.huynhdai01{
+  position: relative;
+  width: 300px;
+  top: -151px;
+}
+
+.card-title01{
+color: #000;
+  position: relative;
+  top: 27px;
+  right: -18px;
+  font-weight: bold;
+}
+
+
+
+/* code di chuyển nút */
+
+
+  .nav-pills {
+    /* left: 806px; */
+    position: relative;
+
+}
+
+
+/* màu chữ choossee taxi */
+/* Set the background color and text color for the active button */
+.nav-pills .nav-link.active {
+  color: #999; /* White text color */
+}
+
+/* Set the background color and text color for the inactive buttons */
+.nav-pills .nav-link {
+  color: #999; /* White text color */
+  border-radius: 0; /* Remove the default rounded corners */
+}
+
+/* Add a hover effect to the inactive buttons */
+.nav-pills .nav-link:hover {
+  color: #999;
+}
+
+/*  */
+/* nút button bấm vào  choosee taxi */
+
+.nav-link1{
+  background-color: white;
+  color: #999;
+  font-size: 17px;
+
+  right: -759px;
+    position: relative;
+}
+
+
+
+
+
+
+/* Nút xem thêm choossee taxi */
+  .btn.btn-primary1 {
+    background-color:orange ;
+    height: 47px;
+    width: 305px;
+    position: relative;
+    left: -7px;
+    top: 70px;
+    
+    /* Thêm màu nền đen khi hover */
+    background-color: orange;
+    color: white; /* Thay đổi màu chữ thành trắng */
+    transition: background-color 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
+  }
+  
+  .btn.btn-primary1:hover {
+    background-color: black; /* Chuyển lại màu cam khi hover */
+    color: white; /* Chuyển lại màu chữ thành đen */
+  }
+
+/* chu p Huynhdai */
+
+
+
+
+
+
+
+
+
+
+/* HUYNHDAI ACCENT */
+
+.card-text{
+position: absolute;
+top: 130px;
+  
+}
+
+
+
+/* HUYNHDAI03 */
+.huynhdai03{
+
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  width: 330px;
+  height: 200%;
+}
+.huynhdai04{
+  position: relative;
+  width: 300px;
+  top: -151px;
+
+}
+
+/* huynh dai chu chooosee taxi toyota */
+
+.huynhdai05{
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  width: 330px;
+  height: 200%;
+
+}
+.huynhdai06{
+  position: relative;
+  width: 300px;
+  top: -151px;
+
+}
+
+.huynhdai07{
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  width: 330px;
+  height: 200%;
+}
+.huynhdai08{
+  position: relative;
+  width: 300px;
+  top: -151px;
+
+}
+
+
+
+
+
+
+
+
+.card-title02{
+
+  position: relative;
+  top: 25px;
+  right: -15px;
+  font-weight: bold;
+color: #000;
+}
+
+ /* toyota taxi  */
+
+/* dong chu p huynh dai */
+.card-body {
+  top: -179px;
+  position: relative;
+
+  height: 176px;
+  width: 337px;
+}
+ /* phan cuoi toyota choosse card */
+.card-title6{
+  left: 9px;
+  position: relative;
+  top: 25px;
+  color: #000;
+}
+.card-title7{
+  left: 13px;
+  position: relative;
+  top: 25px;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* choosee taxi dấu chấm */
+
+
+.card{
+  position: relative;
+  background-color: #ffffff; /* Mã màu cho màu trắng (#ffffff) */
+}
+.slick-slide {
+  border: 1px solid #ccc;
+}
+
+.slick-dots {
+  display: flex;
+  margin-top: 35px;
+  padding-left: 0;
+  margin-bottom: 0;
+  padding-left: 590px;
+}
+.slick-dots li {
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  cursor: pointer;
+
+}
+
+ .slick-dots > li:not(:last-of-type) {
+  margin-right: 8px;
+}
+.slick-dots li button {
+  font-size: 0;
+  padding: 0;
+}
+.slick-dots li.slick-active {
+  background-color: #ff9900;
+  box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.5);
+}
+.slick-slide .comment p {
+  margin-bottom: 24px;
+}
+
+.slick-slide .user-info {
+  display: flex;
+}
+
+.slick-slide .user-info .avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+  overflow: hidden;
+
+}
+.slick-slide .user-info .avatar img {
+  width: 100%;
+  height: 100%;
+}
+.slick-slide .company-info {
+   flex-grow: 1;
+  align-self: center;  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  /* background-color: #d6b10b; */
+  color: rgb(240, 228, 228);
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-primary:hover {
+  background-color: #e9e3df;
+}
+
+.cart-title {
+  color: black;
+}
+
+
+.btn-primary {
+  color: #101114;
+  background-color: #f0e6e6;
+  /* width: 40%;
+  height: 50%; */
+
+}
+
+/* code tạo di chuyển nút choossee taxi */
+
+
+
+
+/* dich vu noi bat pre */
+.cart-service .slick-prev {
+
+  left: 100%;
+  position: absolute;
+  top: 53%;
+}
+
+.cart-service .slick-next {
+  left: -5%;
+  position: absolute;
+  top: 52%;
+}
+
+
+
+
+
+
+.slider {
+  position: relative;
+}
+
+.card {
+  /* Định dạng cho mỗi slide */
+}
+
+/* Định dạng cho các nút dot */
+
+  
+  .slick-dots li {
+    padding: 0 8px;
+  }
+  
+  .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: #fff;
+  }
+     */
 
 
 
