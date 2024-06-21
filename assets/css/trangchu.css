@@ -227,6 +227,7 @@
   
     position: relative;
     top: 43px;
+    height: 87px;
   
   }
   
@@ -241,7 +242,7 @@
     /* Điều chỉnh theo left của navbar */
     width: 101%;
     /* Chiều rộng 100% */
-    height: 115%;
+    height: 100%;
     /* Chiều cao 100% */
     background-color: inherit;
     /* Màu nền giống với navbar */
@@ -276,7 +277,7 @@
   .menu li a {
   
     right: -28px;
-      top: 4px;
+      top: -16px;
       position: relative;
   
     color: #ffffff;
@@ -340,13 +341,24 @@
     width: 63%;
     height: 70%;
     position: absolute;
-    top: 19%;
+    top: -25%;
     left: 47%;
     filter: brightness(0) invert(1); 
   
   }
   
   
+
+
+
+/* thanh menu */
+
+  .navbar-dark .navbar-toggler {
+    top: -17px;
+    position: relative;
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, .1);
+}
   
   
   
@@ -407,7 +419,7 @@
   
   .contact-nav {
     position: absolute;
-    top: -25%;
+    top: -76%;
     /* Adjust the distance from the top as needed */
     left: 98%;
     display: flex;
@@ -418,14 +430,14 @@
     transform: skewX(0deg);
     width: 13%;
     /* Adjust the width as needed */
-    height: 78px;
+    height: 103px;
   }
   
   /* nut css  chinh kich co  thanh nav menu trang chu... */
   .navbar {
     transform: skewX(0deg);
     width: 78%;
-    height: 30%;
+    height: 10%;
     z-index: 999;
   
   
