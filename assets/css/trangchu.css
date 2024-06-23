@@ -2375,9 +2375,9 @@ button {
 
 
 /* General Styles */
-/* .container {
+ /* .container {
   margin-top: 2rem;
-} */
+}  */
 
 /* Nav Tabs */
 .nav-tabs {
@@ -2784,6 +2784,176 @@ top: 92px;
   top: 78px;
 }
 
+
+
+/* call us now */
+.section-online-thepeople {
+  background-color: #1c1c1c;
+  background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/texture.png');
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 100px 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+/*  */
+
+/* call us now */
+.section-online-thepeople {
+  background-color: #1c1c1c;
+  background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/texture.png');
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 40px 0;
+
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+
+/* code css chữ và ảnh call us */
+.icon-text-1 {
+  font-size: 20px;
+  color: #d3d3ca;
+  /* margin-top: -51px; */
+  text-align: left;
+  /* transform: translateX(-100%); */
+  margin-bottom: 20px;
+  position: absolute;
+  top: 229px;
+  left: 120px;
+
+}
+
+.icon-text-001{
+  font-size: 28px;
+  color: #ff9900;
+  /* margin-top: -51px; */
+  text-align: left;
+  /* transform: translateX(-100%); */
+  margin-bottom: 20px;
+  position: absolute;
+  top: 258px;
+  left: 120px;
+  font-weight: bold;
+}
+
+
+
+
+
+/* code css kích cỡ chữ */
+.custom-image {
+  width: 100px;
+  height: auto;
+  border: 2px solid #000;
+  float: left;
+
+
+  margin-top: 110px;
+  /* Add any other styles you want */
+}
+
+/* clip path cắt ảnh */
+.section-online-thepeople {
+  position: relative;
+  background-color: #1c1c1c;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.section-online-thepeople::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  height: 200px;
+  background-color: #f4f5f8;
+  clip-path: polygon(100% 100%, 0 100%, 100% 0);
+}
+
+.section-online-thepeople::before {
+  content: 0;
+  position: absolute;
+  width: 750px;
+  left: -400px;
+  top: -200px;
+}
+/* dòng chữ màu cam call us */
+.title {
+  color: white;
+  position: relative;
+  left: -48px;
+  top: 31px;
+}
+
+.orange-text {
+  color: orange;
+}
+.ride1{
+  position: relative;
+  left: -71px;
+}
+
+
+/*  */
+/* thanh nav màu cam phần liên hệ */
+.white-text001 {
+
+  color: white;
+  position: relative;
+  transform: translateX(107%);
+  position: absolute;
+  right: -3%;
+  top: -46;
+
+}
+
+/* màu chữ p call us  */
+.white-text {
+  color: white;
+  position: relative;
+  transform: translateX(-4%);
+  position: absolute;
+  right: 20%;
+top: 145px;
+}
+
+.img-car {
+
+  left: 26px;
+  position: relative;
+  width: 489px;
+  /* Đặt chiều rộng hình ảnh thành 200 pixel */
+  height: auto;
+  /* Đặt chiều cao tự động, giữ nguyên tỷ lệ khung hình */
+  top: -20%;
+  transform: translateX(40%);
+}
 
 
 
@@ -3812,10 +3982,28 @@ p {
 
 
 
+.icon-telephone1::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 170%;
+  transform: translateX(-1427%);
+  width: 70px;
+  height: 70px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 40px;
+  color: #f90;
+  background-color: rgba(255, 153, 0, .1);
+  border-radius: 2px;
+}
 
-
-
-
+/* dien thoai */
+.hotline-image{
+  left: -223px;
+    position: relative;
+    top: 124px;
+}
 
 
 
