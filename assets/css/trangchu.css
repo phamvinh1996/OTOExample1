@@ -2651,7 +2651,7 @@ color: #000;
     width: 305px;
     position: relative;
     left: -7px;
-    top: 70px;
+    top: 135px;
     
     /* Thêm màu nền đen khi hover */
     background-color: orange;
@@ -2746,7 +2746,7 @@ color: #000;
 
 /* dong chu p huynh dai */
 .card-body {
-  top: -179px;
+  top: -137px;
   position: relative;
 
   height: 176px;
@@ -3222,6 +3222,601 @@ h2 {
   left: -20px;
   opacity: 0.2;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CODE CSS HƠN 1000 + Tạo logo bảng */
+.section-online-Hon1000 {}
+
+.alert-box {
+  left: -30%;
+  background-color: white;
+  padding: -90px;
+  border: 1px solid gray;
+  position: absolute;
+  top: 21%;
+}
+
+.col-alert-box {
+  background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
+  /* background-size: contain; */
+  width: 1000px;
+  height: 800px;
+}
+
+.custom-heading {
+  color: rgb(34, 34, 168);
+  font-size: 24px;
+}
+
+.alert-box p {
+  color: rgb(24, 20, 20);
+
+}
+
+.company-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.company-table td {
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+
+
+/* chữ màu cam hơn 1000 */
+
+
+.section-heading09 {
+  position: relative;
+}
+
+.section-heading09 h4 {
+  position: relative;
+  color: #f90;
+  padding-left: 60px;
+  display: flex;
+  line-height: 16px;
+  top: 1px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+
+}
+
+.section-heading09 h4 span,
+.section-heading09 h4 span:before,
+.section-heading09 h4 span::after {
+  background-color: #f90;
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+
+}
+
+.section-heading09 h4 span {
+  top: 1px;
+  position: absolute;
+  left: 35px;
+  transform: skew(-20deg, 0deg);
+}
+
+.section-heading09 h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+}
+
+.section-heading09 h4 span:before {
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+}
+/* dấu ghạch ngang màu cam khách hàng trải nghiệm 1000 */
+.hinh1-icon {
+  background-color: #f90;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  font-size: 30px;
+  color: #222;
+  width: 60px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -20px;
+  right: -339px;
+}
+
+
+
+
+
+
+
+/*   lợi ích đặt xe hon 1000 */
+/* code icon  */
+.custom-size {
+  top: 107px;
+  font-size: 71px;
+  position: relative;
+  left: -34px;
+  color: white;
+}
+
+.custom-size01 {
+  top: -23px;
+  font-size: 71px;
+  position: relative;
+  left: -389px;
+  color: white;
+
+
+}
+
+.custom-size02 {
+  top: 21%;
+  font-size: 82px;
+  position: absolute;
+  right: 438px;
+  color: white;
+}
+
+
+
+
+/* dòng chữ 3 thông tin công ty */
+.table-heading03{
+  color: white;
+  font-size: 16px;
+  margin-top: 0;
+  position: relative;
+  top: -21px;
+  right: 45px;
+}
+/* code loi ich dat xe hơn 1000 về dấu ghạch */
+
+
+
+.section-heading101 {
+  position: relative;
+}
+
+
+
+.section-heading101 h4 span,
+.section-heading101 h4 span:before,
+.section-heading101 h4 span::after {
+  background-color: rgb(236, 233, 226);
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+}
+
+.section-heading101 h4 span {
+  top: 10px;
+  position: absolute;
+  left: -11px;
+  transform: skew(-20deg, 0deg);
+
+}
+
+.section-heading101 h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+  
+}
+
+.section-heading101 h4 span:before {
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+
+}
+
+/* code loi ich dat xe heading101 */
+.chon1{
+  position: relative;
+  top: 26px;
+  right: -16px;
+  color: white;
+}
+
+
+
+
+/* logo ridek thanh  */
+.logo1 {
+  width: 206px;
+  height: 163px;
+}
+
+.company-name {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.company-description {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*  */
+.container {
+  background-image: url("");
+  background-size: 50%;
+  background-position: center;
+}
+
+h1 {
+  color: rgb(15, 11, 11);
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+
+
+/* code tạo bảng slide carousel hon 1000 */
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+
+}
+
+.slide {
+  flex: 0 0 100%;
+  padding: 20px;
+  box-sizing: border-box;
+
+
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 130px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+h3,
+p {
+  /* position :absolute;
+    left: 50%; */
+  color: #000;
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+/* ảnh bìa 1000 */
+.upper-alert-box {
+  background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
+  background-size: contain;
+  width: 500px;
+  height: 127px;
+  right: 0px;
+  top: 0px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+/* hơn 1ooo khach hang */
+.orange-table {
+  background-color: #ff9900;
+  padding: 70px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  /* đường ghạch chéo màu cam */
+  background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+  background-size: 10px 10px;
+
+
+  width: 574px;
+  height: 256px;
+  top: 122px;
+    position: relative;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.left-column {
+  margin-left: 20px;
+}
+
+.table-heading01 {
+    color: white;
+    font-size: 30px;
+    margin-top: 0;
+    position: relative;
+    top: -35px;
+    left: -103px;
+    font-weight: bold;
+}
+
+.company-info01 {
+  right: -75px;
+  color: white;
+  position: relative;
+  top: -37px;
+  font-size: 16px;
+}
+.company-info02{
+  right: -60px;
+  color: white;
+  position: relative;
+  top: -27px;
+  font-size: 16px;
+}
+.company-info03{
+  right: -65px;
+  color: white;
+  position: relative;
+  top: -27px;
+  font-size: 16px;
+}
+/* code hon 1000 kh tiet kiem chi phi */
+
+.table-heading02{
+  position: relative;
+  color: white;
+  font-size: 16px;
+  left: -49px;
+}
+
+
+
+
+
+
+
+
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+/*  */
+/* hon1000 khach hang */
+/* bảng hon 1000 */
+
+/* code html chữ kich co chữ bang hon 1000 */
+/* bảng hon 1000 khách trải nghiệm */
+
+/* code Diệu lê */
+.table-1 {
+  position: relative;
+  background-color: #ffffff; /* Mã màu cho màu trắng (#ffffff) */
+  /* border: 1px solid #ccc;  */
+}
+
+.table-1 .slick-slide {
+  border: 1px solid #ccc;
+}
+
+.table-1 .slick-dots {
+  display: flex;
+  margin-top: 35px;
+  padding-left: 0;
+  margin-bottom: 0;
+
+  padding-left: 3px;
+}
+
+.table-1 .slick-dots li {
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  cursor: pointer;
+
+}
+
+.table-1 .slick-dots > li:not(:last-of-type) {
+  margin-right: 8px;
+}
+
+.table-1 .slick-dots li button {
+  font-size: 0;
+  padding: 0;
+
+}
+
+.table-1 .slick-dots li.slick-active {
+  background-color: #ff9900;
+  box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.5);
+}
+
+
+.table-1 .slick-slide .comment p {
+  margin-bottom: 24px;
+}
+
+.table-1 .slick-slide .user-info {
+  display: flex;
+}
+
+.table-1 .slick-slide .user-info .avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.table-1 .slick-slide .user-info .avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.table-1 .slick-slide .company-info {
+  flex-grow: 1;
+  align-self: center;
+}
+
+.table-1 .slick-slide .company-info p {
+  display: block;
+}
+
+.table-1 .slick-slide .company-info p.ten01 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.table-1 .slick-slide .company-info p.ten02 {
+  font-size: 14px;
+  font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font chữ 1000 */
+.satisfaction {
+  font-size: 16px;
+
+
+}
+
+/* code di chuyển trang */
+
+/* code bảng 1000 */
+
+
+
+/* nút 3 chấm hơn 1000 */
+.dots-container {
+  text-align: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #bbb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tùy chỉnh màu sắc của dot đã được chọn */
+.dot.active {
+  background-color: #555;
+}
+
+
+
+
+
+
+/*  */
+/*  */
+.logo {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+
+  left: -119px;
+  top: -57px;
+  position: relative;
+}
+
+
+
+.company-info p {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
 
 
 
