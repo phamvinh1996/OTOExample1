@@ -2370,7 +2370,7 @@
   margin-bottom: 20px;
   position: absolute;
   top: 229px;
-  left: 120px;
+  left: 154px;
 
 }
 
@@ -2383,7 +2383,7 @@
   margin-bottom: 20px;
   position: absolute;
   top: 258px;
-  left: 120px;
+  left: 152px;
   font-weight: bold;
 }
 
@@ -2479,7 +2479,7 @@ top: 145px;
 
 
 .hotline-image1{
-  left: -222px;
+  left: 68px;
   position: relative;
   top: 127px;
 }
@@ -3402,7 +3402,7 @@ p {
   content: "";
   position: absolute;
   top: 50%;
-  left: 170%;
+  left: 138%;
   transform: translateX(-1427%);
   width: 70px;
   height: 70px;
@@ -3428,7 +3428,7 @@ p {
   position: relative;
   transform: translateX(107%);
   position: absolute;
-  right: -3%;
+  right: 27%;
   top: -46;
 }
 
