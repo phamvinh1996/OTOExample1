@@ -17,122 +17,89 @@
 }
 
 .navbar-on1 {
-  /* font-size: 18px;
-    font-weight: bold;   */
   position: relative;
   left: 57px;
   font-size: 15px;
   font-weight: bold;
-  /* left: 280px; */
-  /* color: #575555; */
-
-}
-
-/* code css chữ taxi giá liên tỉnh */
-
-
-.navbar-link-lienhe {
-  position: absolute;
-  left: 73%;
-  color: #000;
-  top: 1%;
 }
 
 
+  /* code css chữ taxi giá liên tỉnh */
+  .navbar-link-lienhe {
+    position: absolute;
+    left: 73%;
+    color: #000;
+    top: 1%;
+  }
 
-.navbar-link-FAQ {
-  position: absolute;
-  left: 77%;
-  color: #000;
-  top: 1%;
-}
+  .navbar-link-FAQ {
+    position: absolute;
+    left: 77%;
+    color: #000;
+    top: 1%;
+  }
 
-/* youtube  iocon*/
+  /* youtube  iocon*/
 
-.navbar-icon-yt {
-  position: absolute;
-  left: 82%;
-  top: 1%;
-}
+  .navbar-icon-yt {
+    position: absolute;
+    left: 82%;
+    top: 1%;
+  }
 
 
 /*  */
-/*  */
 
-
-/* .navbar-icon-fb img{
-  
-    width: 40px;
-    height: 30px;
-    border-radius: 50%;
+  /* hình iconfb */
+  .navbar-icon-fb {
     position: absolute;
     left: 80%;
-  top: 1%;
-  
-  } */
-/* hình iconfb */
-.navbar-icon-fb {
-  position: absolute;
-  left: 80%;
-  top: 1%;
-}
+    top: 1%;
+  }
 
-/*  */
-.navbar-text01 {
+  /*  */
+  .navbar-text01 {
+    color: #898b8b;
+    position: relative;
+    left: 250px;
+    font-size: 15px;
 
-  color: #898b8b;
-  position: relative;
-  left: 250px;
-  font-size: 15px;
- 
-}
+  }
+  .navbar-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    margin-right: 10px;
+  }
 
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    transform: skewX(10deg);
+    width: 7%;
+  }
 
-.navbar-link {
-  text-decoration: none;
-  color: #333;
-  font-size: 16px;
-  margin-right: 10px;
-}
-
-/* youtube */
-/* .navbar-icon img {
-    width: 40px;
-    height: 30px;
-    border-radius: 50%;
-  
-   
-  }   */
-
-.contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  color: #fff;
-  transform: skewX(10deg);
-  width: 7%;
-}
 
 /* logo  RIDEK... hotline...*/
-
 
 .container {
   display: flex;
   align-items: center;
+}
 
-
-} 
 /* khoảngcach */
 .logo-container {
   margin-right: 383px;
 }
 
-
 /* logo */
-.logo-brand{
-    width: 170px;
+.logo-brand {
+  width: 170px;
 }
+
 /* logo ridek thanh */
 .logo {
   width: 180px;
@@ -179,17 +146,15 @@
   left: -21%;
   font-size: 18px;
   font-weight: bold;
-  
+
 }
 
 .text02 {
-  
   color: #252525;
   position: relative;
   left: -13%;
   font-size: 18px;
   font-weight: bold;
-  
 }
 
 .text03 {
@@ -197,24 +162,11 @@
   color: #252525;
   position: relative;
   left: -14%;
-  
   font-weight: bold;
-  
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* Tạo css thanh Nav ngang Trang chủ, ... */
-.navbar-yellow {
+  /* Tạo css thanh Nav ngang Trang chủ, ... */
+  .navbar-yellow {
     left: -10%;
     display: flex;
     justify-content: space-between;
@@ -222,22 +174,19 @@
     background-color: #ff9900;
     padding: 10px;
     width: 30%;
-  
-  
-  
     position: relative;
     top: 43px;
     height: 87px;
-  
+
   }
-  
+
   /* kich co thanh nav trang chu... */
   .navbar::before {
     content: '';
     /* Tạo một pseudo-element */
     position: absolute;
     /* Vị trí tuyệt đối */
-  
+
     left: -3%;
     /* Điều chỉnh theo left của navbar */
     width: 101%;
@@ -250,71 +199,62 @@
     /* Áp dụng clip-path */
     z-index: -1;
     /* Đảm bảo pseudo-element hiển thị phía sau phần tử navbar */
-  
+
   }
-  
-   .container {
+
+  .container {
     display: flex;
     justify-content: center;
     align-items: center;
-  
-  } 
-  
+
+  }
+
   .menu {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
   }
-  
+
   .menu li {
     margin-right: 10px;
   }
+
   /* thanh nav chữ */
   /* dấu ghạch chân thanh nav chữ */
-  
+
   /* chữ trên thanh nav màu cam */
   .menu li a {
-  
     right: -28px;
-      top: -3px;
-      position: relative;
-  
+    top: -3px;
+    position: relative;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
-  
   }
-  
+
   .menu li a:hover {
     border-bottom: 1px solid #ffffff;
     font-weight: bold;
-  
   }
-  
-  
-  
-  
+
   .icons {
     display: flex;
     align-items: center;
     margin-left: 10px;
   }
-  
+
   .search-icon,
   .menu-icon {
     width: 95px;
     height: 50px;
     cursor: pointer;
     margin-left: 10px;
-
-
   }
-  
-  
+
+
   /* màu menu thanh NAV */
-  
-  
+
   /*  */
   /* code css tạo hiển thị menu trên thanh NAV trangchu........ */
   div#offcanvasDarkNavbar {
@@ -322,16 +262,16 @@
     color: #f3ebeb;
     width: 500px;
   }
-  
+
   .text-bg-dark h5,
   .text-bg-dark p,
   .text-bg-dark a {
     color: #ffffff;
   }
-  
+
   /* nằm chèn mục liên hệ */
-  
-  
+
+
   /* nút tìm kiếm thanh nav  */
   /* nut tìm kiếm thanh nav trang chu... */
   .search-icon img,
@@ -343,32 +283,22 @@
     position: absolute;
     top: 3%;
     left: 47%;
-    filter: brightness(0) invert(1); 
-  
+    filter: brightness(0) invert(1);
+
   }
-  
-  
 
-
-
-/* thanh menu */
+  /* thanh menu */
 
   .navbar-dark .navbar-toggler {
     top: -4px;
     position: relative;
     color: rgba(255, 255, 255, .5);
     border-color: rgba(255, 255, 255, .1);
-}
-  
-  
-  
-  
-  
-  
-  
+  }
+
   /* nút search  nut tim kiem*/
-  
-  
+
+
   .collapse {
     display: none;
     width: 200px;
@@ -376,11 +306,11 @@
     height: 850px;
     /* Set the desired height */
   }
-  
+
   .show {
     display: block;
   }
-  
+
   /* nút css menu trangchu... */
   .navbar-toggler {
     float: right;
@@ -389,1631 +319,1454 @@
     /* Set the desired width */
     height: 40px;
     /* Set the desired height */
-  
-  
-  
   }
   
-  
-  /* nút trên thanh nav màu cam trang chu, lien he */
-  
-  .dropdown-toggle.black-text,
-  .dropdown-menu .black-text {
-    /* color: #666; */
-    font-size: 15px;
-    top: 5px;
-      left: 6px;
-      position: relative;
+
+/* nút trên thanh nav màu cam trang chu, lien he */
+.dropdown-toggle.black-text,
+.dropdown-menu .black-text {
+  /* color: #666; */
+  font-size: 15px;
+  top: 5px;
+  left: 6px;
+  position: relative;
   color: #666;
-  }
-  .mau1{
-    color: #000;
-    background-color: #000;
-  }
-  
-  
-  
-  
-  
-  /* code css tạo comtact  thanh NAV TRANGCHU...*/
-  
-  .contact-nav {
-    position: absolute;
-    top: -15%;
-    /* Adjust the distance from the top as needed */
-    left: 98%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    color: #fff;
-    transform: skewX(0deg);
-    width: 13%;
-    /* Adjust the width as needed */
-    height: 69px;
-  }
-  
-  /* nut css  chinh kich co  thanh nav menu trang chu... */
-  .navbar {
-    transform: skewX(0deg);
-    width: 78%;
-    height: 10%;
-    z-index: 999;
-  
-  
-  }
-  
-  .navbar-brand img {
-    width: 50px;
-  }
-  
-  .navbar-text {
-    display: flex;
-    align-items: center;
-  
-  
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .navbar-text img {
-    width: 300px;
-    height: auto;
-    margin-right: 10px;
-    right: -61%;
-    position: absolute;
-  
-  }
-  
-  
-  /*  */
-  .navbar-text p {
-    margin: 0;
-    color: #f4f5f8;
-    display: inline-block;
-    margin: 0;
-    font-size: 20px;
-    /* Thay đổi kích thước chữ theo ý muốn */
-    white-space: nowrap;
-    /* Ngăn chữ xuống dòng */
-    overflow: hidden;
-    /* Ẩn nội dung dư thừa */
-    text-overflow: ellipsis;
-    /* Hiển thị dấu chấm 3 chấm (...) khi chữ bị cắt ngang */
-  
-  
-  
-    position: relative;
-    right: -100%;
-    top: 60%;
-  
-  }
-  
-  .contact-info {
-    margin-top: 10px;
-    color: #f4f5f8;
-    font-size: 20px;
-  }
-  
-  .content {
-    margin-top: 80px;
-    /* Đảm bảo nội dung không bị che phủ bởi thanh navbar */
-  
-  }
-  
-  /* code css độ dài thanh  nav tìm kiếm trangchu... */
-  
-  /* thanh css nut menu trangchu...*/
-  
-  .col-right-nav {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .navbar-colright {
-    height: 53px;
-    width: 53px;
-  }
-  
-  .nav.navbar.navbar-dark.bg-dark {
-    width: 50px;
-    
-    
-  
-  }
-  
-  
-   .container {
-    position: relative;
-  }
-   
-  
-
-  /* code css tạo nút search thanh nav */
-   .modal {
-    /* Position the modal in the center of the page */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(1%, -70%);
-  
-    /* Set the size of the modal */
-    width: 80%;
-    height: 80%;
-  
-    /* Add a z-index to ensure the modal is on top of other elements */
-    z-index: 9999;
-  
-    /* Add a white background */
-    background-color: #ffffff;
-  
-    /* Add some padding to the modal content */
-    padding: 20px;
-  
-    /* Add a border and border-radius to the modal */
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-  
-    /* Add a box-shadow to the modal */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  }
-  
-  
-  /* kích thước nút thanh search */
-  .modal-content {
-    top: 680px;
-    position: relative;
-  }
-  
-  
-
-  
-
-  
-
-/* dùng thư viện di chuyển trang book you */
-.carousel {
-    /* width: 110%; */
-    height: 640px;
-  }
-  
-  
-  .carousel-inner {
-    height: 100%;
-  }
-  
-  .carousel-item img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .carousel-caption {
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    position: absolute;
-    top: 0%;
-    transform: translateY(-83%);
-    width: 70%;
-    padding-left: 15px;
-  }
-  
-  .carousel-caption h1 {
-  
-    margin-bottom: 20px;
-    color: #faf1f1;
-    text-align: start;
-    font-size: 47px;
-  
-    position: absolute;
-    left: 30%;
-  }
-  
-  .carousel-caption .img-car {
-    left: 1148px;
-    position: relative;
-    bottom: 220px;
-    width: 500px;
-  }
-  
-  /* code css tạo đường chéo book your */
-  .carousel-caption::before {
-    content: "";
-    position: absolute;
-    top: -50%;
-    bottom: 0%;
-    left: 89%;
-    width: 213px;
-    height: 220%;
-    transform: skew(-30deg);
-    background-color: #ff9900;
-    border-right: 4px solid transparent;
-  
-  }
-  
-  .section-onlinecar .img-car {
-    position: absolute;
-    width: 350px;
-    right: -250px;
-    top: -100px;
-  }
-  
-  /* code css tạo hình chữ nhật đứng màu đen */
-  
-  
-  .chunhat1 {
-    position: absolute;
-    top: 50%;
-    left: 55%;
-    transform: translate(-50%, -50%) rotate(30deg) skewY(-28deg);
-    width: 100px;
-    height: 850px;
-    background-color: rgb(17, 16, 14);
-    z-index: 1;
-  }
-  
-  
-   .container {
-    position: relative;
-  } 
-  
-  
-  
-  .chunhatden {
-    position: absolute;
-    top: -5%;
-    left: 134%;
-    transform: translate(-50%, -50%) rotate(29deg) skewY(-27deg);
-    width: 100px;
-    height: 650px;
-    background-color: rgb(8, 7, 5);
-  
-  }
-  
-  /* code css màu chữ book you p */
-  
-  /* NÚT LIÊN HỆ BOOK YOUR */
-  .btn-view-more {
-    background-color: orange;
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 4px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    float: left;
-    left: 1%;
-    width: 20%;
-    border-radius: 5px;
-    font-size: 16px;
-    position: absolute;
-    margin-top: 72px;
-  }
-  
-  .btn-view-more:hover {
-    background-color: black;
-    color: orange;
-  }
-  
-  
-  
-  
-  
-  /* code css chuyển động qua trang book */
-  .carousel-caption {
-    position: absolute;
-    top: 56%;
-    /* left: 100%; */
-    width: 50%;
-    height: 50%;
-    /* transform: translate(40%, 40%);  */
-  
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    *
-  }
-  
-  .carousel-item.active .carousel-caption {
-    opacity: 1;
-  
-    
-  }
-  /*  */
-  
-  
-  
-  
-  /* CODE THE BOOK 1/2 */
-  .carousel-indicators li:after {
-    content: "/2";
-    font-size: 16px;
-    color: #666666;
-    font-family: "Space Grotesk", sans-serif;
-  }
-  
-  .active{
-    font-family: "Space Grotesk", sans-serif;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  .carousel-caption h1 {
-    font-weight: bold;
-    left: 40%;
-    margin-bottom: -7px;
-    animation: slide-up 0.5s ease forwards;
-    text-align: text;
-    position: relative;
-    font-family: "Space Grotesk", sans-serif;
-    font-size: 52px;
-    top: 13px;
-  
-  }
-  
-  
-  .carousel-caption p {
-    font-size: 18px;
-    animation: slide-up 0.5s ease 0.3s forwards;
-    text-align: text;
-    position: relative;
-    left: 24%;
-    color: white;
-    font-family: "Space Grotesk", sans-serif;
-  }
-  
-  /* Travel securely with us THE BOOK */
-  .doct1 {
-    position: relative;
-    left: -43%;
-    top: 1%;
-    font-family: "Space Grotesk", sans-serif;
-    font-size: 18px;
-  }
-  
-  
-  
-  .carousel-caption .btn-view-more {
-    font-size: 16px;
-    animation: slide-up 0.5s ease 0.6s forwards;
-  }
-  
-  .carousel-caption .img-car {
-    position: absolute;
-    width: 675px;
-    height: auto;
-    /* right: 100%; */
-    top: -99px;
-  
-    opacity: 0;
-    animation: drive-in 1s ease 0.9s forwards;
-  }
-  
-  @keyframes slide-up {
-    from {
-      transform: translate(-50%, 50%);
-      opacity: 0;
-    }
-  
-    to {
-      transform: translate(-50%, -50%);
-      opacity: 1;
-    }
-  }
-  
-  @keyframes drive-in {
-    from {
-      transform: translate(100%, -50%);
-      opacity: 0;
-    }
-  
-    to {
-      transform: translate(-50%, -50%);
-      opacity: 1;
-    }
-  }
-  
-  /* code css chỉnh nút button book */
-  
-  /* nút chỉnh butoon  book your */
-  .button-carousel {
-    position: relative;
-    bottom: 58px;
-    height: 47px;
-    top: 18%;
-    left: 10%;
-    text-align: center;
-    width: 270px;
-  
-  }
-  
-  .carousel-control-prev,
-  .carousel-control-next {
-    position: absolute;
-    bottom: 20px;
-    /* Điều chỉnh khoảng cách từ nút đến phía dưới của trang */
-    left: 130px;
-    /* Điều chỉnh khoảng cách từ nút đến phía trái của trang */
-    background-color: black;
-    /* Đặt màu nền của nút là trắng */
-    border: none;
-    /* Xóa viền của nút */
-    color: black;
-    /* Đặt màu chữ là đen */
-    padding: 20px;
-    /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
-    position: fixed;
-    top: 30%;
-  
-  }
-  
-  /* code chu pre - next */
-  .previous-word {
-    font-size: 16px;
-    color: black;
-    z-index: 1;
-    position: relative;
-    left: 7%;
-  }
-  
-  .next-word {
-    font-size: 16px;
-    z-index: 1;
-    position: relative;
-    color: black;
-    right: 7%;
-  
-  }
-  
-  .page-number {
-    color: orangered;
-    font-size: 20px;
-    z-index: 1;
-    position: relative;
-    right: 7%;
-  }
-  .page-number1{
-   font-size: 30px;
-    color: orangered;
-    z-index: 1;
-    position: relative;
-    right: 7%;
-  }
-  
-  button.carousel-control-prev {
-    width: 100px;
-    position: absolute;
-    left: -9%;
-  }
-  
-  button.carousel-control-next {
-    width: 100px;
-    position: absolute;
-    left: 60%;
-  }
-  
-  
-  /* code hiện số trang */
-  
-  
-  
-  
-  /*  code css màu nút button book*/
-  .button-carousel button {
-    /* background-color: black; */
-    background-color: whitesmoke;
-    /* Đặt màu nền của nút là đen */
-    color: black;
-    /* Đặt màu chữ là trắng */
-    border: none;
-    /* Xóa viền của nút */
-    padding: 10px;
-    /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
-  }
-  
-  
-  .button-carousel button:hover {
-    background-color: darkgray;
-    /* Thay đổi màu nền của nút khi di chuột qua */
-  }
-  
-  .button-carousel button:focus {
-    outline: none;
-    /* Xóa viền xung quanh nút khi được tập trung */
-  }
-  
-  /* clip path cắt ảnh boook you */
-  .carousel-caption::after {
-    content: "";
-    position: absolute;
-    right: 0;
-    width: 700px;
-    height: 90px;
-    top: 93%;
-    right: 90%;
-    left: -55%;
-    background-color: #f4f5f8;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
-  
-  }
-  
-  .search-bar {
-    left: 0px;
-    position: relative;
-  }
-  
-  .nav-menu {
-    position: relative;
-    left: 550px;
-    width: 60%;
-  }
-  
-  
-
-/* phần code css số trang BOOK */
-
-#carouselExampleFade .carousel-indicators li {
-    right: -93px;
-      position: relative;
-    height: auto;
-    color: orange;
-    background-color: transparent;
-    width: auto;
-    background-clip: unset;
-    text-indent: 0;
-    
-  }
-  
-  #carouselExampleFade .carousel-indicators li:not(.active) {
-    display: none;
-  
-  }
-  
-  
-  #carouselExampleFade .carousel-indicators{
-    position: absolute;
-    left: -1400px;
-    color: orange;
-    font-size: 30px;
-    font-weight: bold;
-  
-  }
-  
-
-
-
-
-
-
-
-/* nut tim kiem */
-/* code css giới thiệu về chúng tôi */
-/*  Code chi cột về chúng tôi*/
-
-/* thẻ p về chúng tôi */
-
-.pict1 {
-  font-size: 17px;
-  line-height: 26px;
-  margin-bottom: 15px;
-  color: rgb(102, 102, 102);
-  font-family: "Space Grotesk", sans-serif;
-
-
 }
 
-
- .container {
-  display: flex;
-  flex-wrap: wrap;
-} 
-
-h1,
-p {
-  flex-basis: 100%;
+.mau1 {
   color: #000;
-
-
+  background-color: #000;
 }
 
+/* code css tạo comtact  thanh NAV TRANGCHU...*/
 
-
-/* hiệu ứng ảnh về chúng tôi */
-
-
-
-
-
-
-
-
-
-/* CSS */
-.my-heading {
-  color: rgb(222, 222, 226);
-
-
-}
-
- .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} 
-
-/* thanh nav trang chu menu ảnh logo */
-img {
-  width: 190px;
-  height: auto;
-}
-
-/* giới thiệu về chững tôi  chữ màu cam*/
-
-/* .introduction {
-    color: orange;
-    font-size: 26px;
-  } */
-
-/*code màu chữ gioi thieu ve chung toi */
-
-
-.section-heading {
-  position: relative;
-}
-
-.section-heading h4 {
-  position: relative;
-  color: #f90;
-  padding-left: 50px;
-  display: flex;
-  line-height: 16px;
-  top: -13px;
-  left: -21px;
-}
-
-.section-heading h4 span,
-.section-heading h4 span:before,
-.section-heading h4 span::after {
-  background-color: #f90;
-  width: 5px;
-  height: 16px;
-  display: inline-block;
+.contact-nav {
   position: absolute;
-}
-
-.section-heading h4 span {
-  left: 32px;
-  transform: skew(-20deg, 0deg);
-}
-
-.section-heading h4 span:after {
-  content: "";
-  left: -10px;
-  opacity: 0.5;
-}
-
-.section-heading h4 span:before {
-  content: "";
-  left: -20px;
-  opacity: 0.2;
-}
-
-
-
-
-/*  Code CSS VỀ CHÚNG TÔI */
- .container {
+  top: -15%;
+  /* Adjust the distance from the top as needed */
+  left: 98%;
   display: flex;
-  flex-wrap: wrap;
-
-} 
-
-
-/* thẻ chữ book you */
-
-/* Khoảng cách Giua anh va chu VE CHUNG TOI */
-
-.image-container {
-  display: flex;
-  align-items: center;
   justify-content: center;
-  margin-right: 30px; /* Adjust the value as needed */
-}
-
-.form-group1 {
-  margin-left: 70px; /* Adjust the value as needed */
-
-  top: -106px;
-  position: relative;
-}
-
-
-/* về chúng tôi  tổng phần chữ*/
-
-.form-group {
-  right: -43px;
-  top: 118px;
-  position: relative;
-  margin-bottom: 1rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* code css chữ về chúng tôi */
-.container p {
-  z-index: 1;
-  flex-direction: column;
   align-items: center;
+  background-color: black;
+  color: #fff;
+  transform: skewX(0deg);
+  width: 13%;
+  /* Adjust the width as needed */
+  height: 69px;
+}
 
+/* nut css  chinh kich co  thanh nav menu trang chu... */
+.navbar {
+  transform: skewX(0deg);
+  width: 78%;
+  height: 10%;
+  z-index: 999;
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.navbar-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar-text img {
+  width: 300px;
+  height: auto;
+  margin-right: 10px;
+  right: -61%;
+  position: absolute;
+
+}
+
+
+/*  */
+.navbar-text p {
+  margin: 0;
+  color: #f4f5f8;
+  display: inline-block;
+  margin: 0;
+  font-size: 20px;
+  /* Thay đổi kích thước chữ theo ý muốn */
+  white-space: nowrap;
+  /* Ngăn chữ xuống dòng */
+  overflow: hidden;
+  /* Ẩn nội dung dư thừa */
+  text-overflow: ellipsis;
+  /* Hiển thị dấu chấm 3 chấm (...) khi chữ bị cắt ngang */
+  position: relative;
+  right: -100%;
+  top: 60%;
+
+}
+
+.contact-info {
+  margin-top: 10px;
+  color: #f4f5f8;
+  font-size: 20px;
 }
 
 .content {
+  margin-top: 80px;
+  /* Đảm bảo nội dung không bị che phủ bởi thanh navbar */
+}
+
+/* code css độ dài thanh  nav tìm kiếm trangchu... */
+
+/* thanh css nut menu trangchu...*/
+.col-right-nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
 }
 
-/*  */
-
-p {
-  margin: 0;
+.navbar-colright {
+  height: 53px;
+  width: 53px;
 }
 
-/*  */
-
-.about-us {
-  position: relative;
-  left: -1%;
-  color: black;
-  font-size: 33px;
-  font-weight: bold;
-
-  margin-bottom: 20px;
-  line-height: 42px;
-
+.nav.navbar.navbar-dark.bg-dark {
+  width: 50px;
 }
-
-h1,
-p {
-  flex-basis: 100%;
-  color: #000;
-}
-
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image {
-  width: 220px;
-  height: auto;
-}
-
-/* code css tạo di chuyển ảnh tròn */
-.section-online-vechungtoi {
   position: relative;
 }
-
-.image-container {
-  position: relative;
-}
-
-.Image {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%;
-  z-index: 1;
-}
-
-/* Tạo css chuyển động ảnh tròn */
-.Image {}
-
-/*  */
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.image-container .Image {
-  left: 385px;
-  top: 95px;
-  width: 11%;
-  /* Loại bỏ hoạt hình mặc định */
-}
-
-.ExperienceText {
-  animation: rotate 3s infinite linear;
-  /* Áp dụng hoạt hình vòng quay */
-}
-
-.image-animation {
-  position: absolute;
-  top: 48px;
-  left: 320px;
-  animation-name: rotateImage;
-  animation-duration: 4s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  transform-origin: center center;
-
-}
-
-
-@keyframes rotateImage {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/* code css tạo đường chéo về chứng tôi */
-
-
-.image-container {
-  position: relative;
-}
-
-.image-container::after {
-  content: "";
-  position: absolute;
-  top: 0%;
-  left: 190px;
-  right: 20%;
-  width: 50%;
-  height: 130%;
-  transform: skew(-20deg);
-  background-color: #ff9900;
-  z-index: -1;
-}
-
-
-/* chữ số điện thoại về chúng tôi */
-
-.hot1 {
-  left: 43%;
-  right: 19%;
-  color: #7d7d7d;
-  font-size: 16px;
-  position: absolute;
-  top: 70%;
-}
-
-.color1 {
-  color: orange;
-  position: absolute;
-  right: 34%;
-  top: 78%;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-
-
-/* ảnh 01 về chúng tôi */
-.image01 {
-  position: absolute;
-  left: 17%;
-  top: 80%;
-  width: 132px;
-}
-
-/* ảnh về chúng tôi */
-.ceo1 {
-  position: absolute;
-  right: 69%;
-  top: 70%;
-  font-size: 16px;
-  color: #7d7d7d;
- border-radius: 50px;
-
-}
-
-/* picture vè chung toi */
-
-
-
-.ceo101{
-
-  position: relative;
-  left: -2px;
-border-radius: 90px;
-width: 93px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*  */
-
-img.image-car1 {
-  left: -9%;
-  position: relative;
-  width: 300px;
-
-}
-.image-car2-container {
-  display: flex;
-}
-
-img.image-car2 {
-  display: flex;
-  justify-content: flex-end;
-  align-self: flex-end;
-  position: relative;
-
-  top: 84px;
-  position: relative;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Dịch vụ nỗi bật css */
-
-/* CODE DỊCH VỤ NỖI BẬT */
-.overlay-image {
-  animation-play-state: paused;
-}
-
-.cover-image {
-  background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg");
-  background-position: left;
-  background-repeat: no-repeat;
-  height: 500px;
-  /* width: 1900px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: rgb(227, 215, 215);
-  top: 118px;
-  position: relative;
-}
-
-/* chữ màu cam */
-
-/* carrt anhr chen anh banner dich vu noi bat */
-.cart-service {
-  position: relative;
-  bottom: 140px;
-}
-
-.cover-image .text {
-  font-size: 36px;
-  position: relative;
-  top: -39%;
-}
-
-.cover-image .textdichvunoibat {
-  color: #f7eded;
-  position: relative;
-  top: -51px;
-  left: -50px;
-  /* Màu chữ trắng */
-}
-
-.container .card h2 {
-  color: #0a0909;
-  /* Màu chữ trắng */
-}
-
-.cover-image p {
-  font-size: 17px;
-  margin-top: -23px;
-  font-family: "Space Grotesk", sans-serif;
-  color: rgb(221, 221, 221);
-
-
-}
-
-/* .container {
-  display: flex;
-  justify-content: space-between;
-} */
-
-.card {
-  width: 360px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.card-banner {}
-
-.car-in-card {
-  width: 150%;
-  border-radius: 8px;
-
-}
-
-.card h2 {
-  font-size: 22px;
-  margin-left: 91px;
-  text-align: left;
-}
-
-.card p {
-  text-align: left;
-  font-size: 16px;
-  line-height: 26px;
-  margin-left: 10px;
- 
-
-}
-
-
-
-
-
-
-
-
-.button {
-  padding: 10px 20px;
-  background-color: #ff9900;
-  color: white;
-  text-decoration: none;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.button:hover {
-  background-color: rgb(190, 97, 17);
-}
-
-
-/* code css what we offter */
-
-.text1{
-
-  position: relative;
-  top: 1px;
-}
-
-.vuong1{
-  position: relative;
-  top: 10px;
-}
-
-
-/*  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* tạo css nút chuyển trang  dịch vụ nổi bật*/
-.card-navigation {
-  position: absolute;
-  bottom: -70px;
-  left: 50%;
-  transform: translateX(-70%);
-
-}
-
-/* kich co anh css cart picture */
-
-.card-image {
-  width: 100%;
-  height: auto;
-
-}
-
-
-
-.card-image2 {
-  width: 65%;
-  height: auto;
-  position: absolute;
-  float: right;
-  bottom: -17px;
-  right: -6%;
-  z-index: 3;
-}
-
-/* hiệu ứng css xe car dịch vụ nỗi bật */
-
-.card-image2:hover {
-  animation: imageEffect 0.5s ease-in-out;
-}
-
-@keyframes imageEffect {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.2);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
-/* nút xem thêm dịch vụ nỗi bật */
-
-
-/* Nut xem them dich vu noi bat */
-.nutxemthem {
-  background-color: orange;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  top: 8px;
-position: relative;
-left: -555px;
-  transition: background-color 0.3s ease;
-    /* cắt nút bên phải button */
- clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
-}
-
-.nutxemthem:hover {
-  background-color: black;
-  color: white;
-}
-
-
-
-/* canh chữ dòng chữ nỗi bật*/
-
-.card-bottom {
-  display: inline-block;
-}
-
-/* code css tạo đặt carousel cart ảnh dịch vụ */
-
-
-/* nút di chuyển trang */
-
-.triangle-buttons {
-  display: flex;
-  justify-content: space-between;
-  width: 200px;
-}
-
-.triangle-button {
-  width: 0;
-  height: 0;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent;
-  position: relative;
-  top: 10%;
-  left: 10%;
-}
-
-.arrow-left,
-.arrow-right {
-  width: 0;
-  height: 0;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent;
-  position: absolute;
+/* code css tạo nút search thanh nav */
+.modal {
+  /* Position the modal in the center of the page */
+  position: fixed;
   top: 50%;
-  transform: translateY(-2600%);
-  background-color: orange;
-}
-
-.arrow-left {
-  border-right: 12px solid rgb(15, 10, 10);
-  left: 320px;
-
-}
-
-.arrow-right {
-  border-left: 12px solid rgb(31, 20, 20);
-  right: -1300px;
-}
-
-/* .container {
-  position: relative;
-} */
-
-.vuongvang {
-  position: absolute;
-  top: 53%;
-  left: 72%;
-  transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
-  width: 80px;
-  height: 150px;
-  background-color: #ff9900;
-  z-index: 1;
-}
-
-.vuongden1 {
-  position: absolute;
-  top: 65%;
-  left: 59%;
-  transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
-  width: 69px;
-  height: 120px;
-  background-color: rgb(22, 20, 14);
-  z-index: 2;
-}
-
-.vuongden2 {
-  position: absolute;
-  top: 66%;
-  left: 83%;
-  transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
-  width: 49px;
-  height: 120px;
-  background-color: rgb(22, 20, 14);
-  z-index: 2;
-}
-
-
-.card-top {
-  position: relative;
-}
-
-/* hiệu ứng 1 */
-
-.vuongden1:hover {
-  animation: imageEffect 0.5s ease-in-out;
-}
-
-@keyframes imageEffect {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.2);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
-/* hiệu ứng 2 */
-
-
-.vuongden2:hover {
-  animation: imageEffect 0.5s ease-in-out;
-}
-
-@keyframes imageEffect {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.2);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
-
-
-.vuongvang:hover {
-  animation: imageEffect 0.5s ease-in-out;
-}
-
-@keyframes imageEffect {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.2);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
-/* hiệu ứng dịch vụ nổi bật */
-
-/* code hiệu ứng dịch vụ nỗi bật */
-
-.container:hover .vuongvang,
-.container:hover .vuongden1,
-.container:hover .vuongden2,
-.container:hover .card-image2,
-.container:hover~.triangle-buttons {
-  animation: effectAnimation 0.5s ease-in-out;
-}
-
-@keyframes effectAnimation {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.2);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
-/* dau 3 chấm nút di chuyển dịch vụ nỗi bâtj */
-
-
-.slider {
-  position: relative;
-}
-
-.dots {
-  position: absolute;
-  bottom: 10px;
   left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  transform: translate(1%, -70%);
+  /* Set the size of the modal */
+  width: 80%;
+  height: 80%;
 
-.dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #160b75;
-  margin: 0 5px;
-  cursor: pointer;
-}
+  /* Add a z-index to ensure the modal is on top of other elements */
+  z-index: 9999;
 
-.dot.slick-active {
-  background-color: #000;
-}
+  /* Add a white background */
+  background-color: #ffffff;
 
+  /* Add some padding to the modal content */
+  padding: 20px;
 
-/*  */
-
-
-
-.section-heading001 {
-  position: relative;
-}
-
-.section-heading001 h4 {
-  position: relative;
-  color: #f90;
-  padding-left: 193px;
-  display: flex;
-  line-height: 16px;
-  top: -58px;
-  font-size: 17px;
-}
-
-.section-heading001 h4 span,
-.section-heading001 h4 span:before,
-.section-heading001 h4 span::after {
-  background-color: #f90;
-  width: 5px;
-  height: 16px;
-  display: inline-block;
-  position: absolute;
-  top: 1%;
-}
-
-.section-heading001 h4 span {
-  top: 1px;
-  position: absolute;
-  left: 170px;
-  transform: skew(-20deg, 0deg);
-}
-
-.section-heading001 h4 span:after {
-  content: "";
-  left: -10px;
-  opacity: 0.5;
-}
-
-.section-heading001 h4 span:before {
-  content: "";
-  left: -20px;
-  opacity: 0.2;
-}
-
-
-
-
-
-
-/* choosee taxi dấu chấm */
-
-
-.card{
-  position: relative;
-  background-color: #ffffff; /* Mã màu cho màu trắng (#ffffff) */
-}
-.slick-slide {
-  border: 1px solid #ccc;
-}
-
-.slick-dots {
-  display: flex;
-  margin-top: 35px;
-  padding-left: 0;
-  margin-bottom: 0;
-  padding-left: 590px;
-}
-.slick-dots li {
-  list-style: none;
-  width: 10px;
-  height: 10px;
-  background-color: #000;
-  cursor: pointer;
-
-}
-
- .slick-dots > li:not(:last-of-type) {
-  margin-right: 8px;
-}
-.slick-dots li button {
-  font-size: 0;
-  padding: 0;
-}
-.slick-dots li.slick-active {
-  background-color: #ff9900;
-  box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.5);
-}
-.slick-slide .comment p {
-  margin-bottom: 24px;
-}
-
-.slick-slide .user-info {
-  display: flex;
-}
-
-.slick-slide .user-info .avatar {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin-right: 20px;
-  overflow: hidden;
-
-}
-.slick-slide .user-info .avatar img {
-  width: 100%;
-  height: 100%;
-}
-.slick-slide .company-info {
-   flex-grow: 1;
-  align-self: center;  
-
-}
-/* dich vu noi bat pre */
-.cart-service .slick-prev {
-
-  left: 100%;
-  position: absolute;
-  top: 53%;
-}
-
-.cart-service .slick-next {
-  left: -5%;
-  position: absolute;
-  top: 52%;
-}
-
-
-
-/* nút button dich vu noi bat */
-button {
-  background-color: #ff9900;
-  color: white;
-  padding: 10px 20px;
-  border: none;
+  /* Add a border and border-radius to the modal */
+  border: 1px solid #ffffff;
   border-radius: 5px;
-  cursor: pointer;
+
+  /* Add a box-shadow to the modal */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+/* kích thước nút thanh search */
+.modal-content {
+  top: 680px;
+  position: relative;
+}
+  
+
+      /* dùng thư viện di chuyển trang book you */
+      .carousel {
+        /* width: 110%; */
+        height: 640px;
+      }
+    
+    
+      .carousel-inner {
+        height: 100%;
+      }
+    
+      .carousel-item img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    
+      .carousel-caption {
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0%;
+        transform: translateY(-83%);
+        width: 70%;
+        padding-left: 15px;
+      }
+    
+      .carousel-caption h1 {
+    
+        margin-bottom: 20px;
+        color: #faf1f1;
+        text-align: start;
+        font-size: 47px;
+    
+        position: absolute;
+        left: 30%;
+      }
+    
+      .carousel-caption .img-car {
+        left: 1148px;
+        position: relative;
+        bottom: 220px;
+        width: 500px;
+      }
+    
+      /* code css tạo đường chéo book your */
+      .carousel-caption::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        bottom: 0%;
+        left: 89%;
+        width: 213px;
+        height: 220%;
+        transform: skew(-30deg);
+        background-color: #ff9900;
+        border-right: 4px solid transparent;
+    
+      }
+    
+      .section-onlinecar .img-car {
+        position: absolute;
+        width: 350px;
+        right: -250px;
+        top: -100px;
+      }
+    
+      /* code css tạo hình chữ nhật đứng màu đen */
+    
+      .chunhat1 {
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%) rotate(30deg) skewY(-28deg);
+        width: 100px;
+        height: 850px;
+        background-color: rgb(17, 16, 14);
+        z-index: 1;
+      }
+    
+      .container {
+        position: relative;
+      }
+  
+      .chunhatden {
+        position: absolute;
+        top: -5%;
+        left: 134%;
+        transform: translate(-50%, -50%) rotate(29deg) skewY(-27deg);
+        width: 100px;
+        height: 650px;
+        background-color: rgb(8, 7, 5);
+    
+      }
+    
+      /* code css màu chữ book you p */
+    
+      /* NÚT LIÊN HỆ BOOK YOUR */
+      .btn-view-more {
+        background-color: orange;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 4px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        float: left;
+        left: 1%;
+        width: 20%;
+        border-radius: 5px;
+        font-size: 16px;
+        position: absolute;
+        margin-top: 72px;
+      }
+    
+      .btn-view-more:hover {
+        background-color: black;
+        color: orange;
+      }
+    
+      /* code css chuyển động qua trang book */
+      .carousel-caption {
+        position: absolute;
+        top: 56%;
+        /* left: 100%; */
+        width: 50%;
+        height: 50%;
+        /* transform: translate(40%, 40%);  */
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        *
+      }
+    
+      .carousel-item.active .carousel-caption {
+        opacity: 1;
+      }
+    
+      /*  */
+      /* CODE THE BOOK 1/2 */
+      .carousel-indicators li:after {
+        content: "/2";
+        font-size: 16px;
+        color: #666666;
+        font-family: "Space Grotesk", sans-serif;
+      }
+    
+      .active {
+        font-family: "Space Grotesk", sans-serif;
+      }
+  
+      .carousel-caption h1 {
+        font-weight: bold;
+        left: 40%;
+        margin-bottom: -7px;
+        animation: slide-up 0.5s ease forwards;
+        text-align: text;
+        position: relative;
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 52px;
+        top: 13px;
+    
+      }
+    
+    
+      .carousel-caption p {
+        font-size: 18px;
+        animation: slide-up 0.5s ease 0.3s forwards;
+        text-align: text;
+        position: relative;
+        left: 24%;
+        color: white;
+        font-family: "Space Grotesk", sans-serif;
+      }
+    
+      /* Travel securely with us THE BOOK */
+      .doct1 {
+        position: relative;
+        left: -43%;
+        top: 1%;
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 18px;
+      }
+    
+      .carousel-caption .btn-view-more {
+        font-size: 16px;
+        animation: slide-up 0.5s ease 0.6s forwards;
+      }
+    
+      .carousel-caption .img-car {
+        position: absolute;
+        width: 675px;
+        height: auto;
+        /* right: 100%; */
+        top: -99px;
+    
+        opacity: 0;
+        animation: drive-in 1s ease 0.9s forwards;
+      }
+    
+      @keyframes slide-up {
+        from {
+          transform: translate(-50%, 50%);
+          opacity: 0;
+        }
+    
+        to {
+          transform: translate(-50%, -50%);
+          opacity: 1;
+        }
+      }
+    
+      @keyframes drive-in {
+        from {
+          transform: translate(100%, -50%);
+          opacity: 0;
+        }
+    
+        to {
+          transform: translate(-50%, -50%);
+          opacity: 1;
+        }
+      }
+    
+      /* code css chỉnh nút button book */
+    
+      /* nút chỉnh butoon  book your */
+      .button-carousel {
+        position: relative;
+        bottom: 58px;
+        height: 47px;
+        top: 18%;
+        left: 10%;
+        text-align: center;
+        width: 270px;
+      }
+    
+      .carousel-control-prev,
+      .carousel-control-next {
+        position: absolute;
+        bottom: 20px;
+        /* Điều chỉnh khoảng cách từ nút đến phía dưới của trang */
+        left: 130px;
+        /* Điều chỉnh khoảng cách từ nút đến phía trái của trang */
+        background-color: black;
+        /* Đặt màu nền của nút là trắng */
+        border: none;
+        /* Xóa viền của nút */
+        color: black;
+        /* Đặt màu chữ là đen */
+        padding: 20px;
+        /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
+        position: fixed;
+        top: 30%;
+      }
+    
+      /* code chu pre - next */
+      .previous-word {
+        font-size: 16px;
+        color: black;
+        z-index: 1;
+        position: relative;
+        left: 7%;
+      }
+    
+      .next-word {
+        font-size: 16px;
+        z-index: 1;
+        position: relative;
+        color: black;
+        right: 7%;
+      }
+    
+      .page-number {
+        color: orangered;
+        font-size: 20px;
+        z-index: 1;
+        position: relative;
+        right: 7%;
+      }
+    
+      .page-number1 {
+        font-size: 30px;
+        color: orangered;
+        z-index: 1;
+        position: relative;
+        right: 7%;
+      }
+    
+      button.carousel-control-prev {
+        width: 100px;
+        position: absolute;
+        left: -9%;
+      }
+    
+      button.carousel-control-next {
+        width: 100px;
+        position: absolute;
+        left: 60%;
+      }
+    
+    
+      /* code hiện số trang */
+      /*  code css màu nút button book*/
+      .button-carousel button {
+        /* background-color: black; */
+        background-color: whitesmoke;
+        /* Đặt màu nền của nút là đen */
+        color: black;
+        /* Đặt màu chữ là trắng */
+        border: none;
+        /* Xóa viền của nút */
+        padding: 10px;
+        /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
+      }
+    
+    
+      .button-carousel button:hover {
+        background-color: darkgray;
+        /* Thay đổi màu nền của nút khi di chuột qua */
+      }
+    
+      .button-carousel button:focus {
+        outline: none;
+        /* Xóa viền xung quanh nút khi được tập trung */
+      }
+    
+      /* clip path cắt ảnh boook you */
+      .carousel-caption::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 700px;
+        height: 90px;
+        top: 93%;
+        right: 90%;
+        left: -55%;
+        background-color: #f4f5f8;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
+      }
+    
+      .search-bar {
+        left: 0px;
+        position: relative;
+      }
+    
+      .nav-menu {
+        position: relative;
+        left: 550px;
+        width: 60%;
+      }
+    
+      /* phần code css số trang BOOK */
+    
+      #carouselExampleFade .carousel-indicators li {
+        right: -93px;
+        position: relative;
+        height: auto;
+        color: orange;
+        background-color: transparent;
+        width: auto;
+        background-clip: unset;
+        text-indent: 0;
+    
+      }
+    
+      #carouselExampleFade .carousel-indicators li:not(.active) {
+        display: none;
+    
+      }
+      #carouselExampleFade .carousel-indicators {
+        position: absolute;
+        left: -1400px;
+        color: orange;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+  /* nut tim kiem */
+  /* code css giới thiệu về chúng tôi */
+  /*  Code chi cột về chúng tôi*/
+
+  /* thẻ p về chúng tôi */
+
+  .pict1 {
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    color: rgb(102, 102, 102);
+    font-family: "Space Grotesk", sans-serif;
+
+
+  }
+
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h1,
+  p {
+    flex-basis: 100%;
+    color: #000;
+  }
 
 
 
+  /* hiệu ứng ảnh về chúng tôi */
+
+  /* CSS */
+  .my-heading {
+    color: rgb(222, 222, 226);
 
 
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* thanh nav trang chu menu ảnh logo */
+  img {
+    width: 190px;
+    height: auto;
+  }
+
+  /* giới thiệu về chững tôi  chữ màu cam*/
+
+  /* .introduction {
+      color: orange;
+      font-size: 26px;
+    } */
+
+  /*code màu chữ gioi thieu ve chung toi */
 
 
+  .section-heading {
+    position: relative;
+  }
+
+  .section-heading h4 {
+    position: relative;
+    color: #f90;
+    padding-left: 50px;
+    display: flex;
+    line-height: 16px;
+    top: -13px;
+    left: -21px;
+  }
+
+  .section-heading h4 span,
+  .section-heading h4 span:before,
+  .section-heading h4 span::after {
+    background-color: #f90;
+    width: 5px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+  }
+
+  .section-heading h4 span {
+    left: 32px;
+    transform: skew(-20deg, 0deg);
+  }
+
+  .section-heading h4 span:after {
+    content: "";
+    left: -10px;
+    opacity: 0.5;
+  }
+
+  .section-heading h4 span:before {
+    content: "";
+    left: -20px;
+    opacity: 0.2;
+  }
 
 
+  /*  Code CSS VỀ CHÚNG TÔI */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
 
 
+  /* thẻ chữ book you */
+
+  /* Khoảng cách Giua anh va chu VE CHUNG TOI */
+
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    /* Adjust the value as needed */
+  }
+
+  .form-group1 {
+    margin-left: 70px;
+    /* Adjust the value as needed */
+
+    top: -106px;
+    position: relative;
+  }
 
 
+  /* về chúng tôi  tổng phần chữ*/
+
+  .form-group {
+    right: -43px;
+    top: 118px;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+  /* code css chữ về chúng tôi */
+  .container p {
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*  */
+
+  p {
+    margin: 0;
+  }
+
+  /*  */
+
+  .about-us {
+    position: relative;
+    left: -1%;
+    color: black;
+    font-size: 33px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+    line-height: 42px;
+
+  }
+
+  h1,
+  p {
+    flex-basis: 100%;
+    color: #000;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    width: 220px;
+    height: auto;
+  }
+
+  /* code css tạo di chuyển ảnh tròn */
+  .section-online-vechungtoi {
+    position: relative;
+  }
+
+  .image-container {
+    position: relative;
+  }
+
+  .Image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    z-index: 1;
+  }
+
+  /* Tạo css chuyển động ảnh tròn */
+  .Image {}
+
+  /*  */
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .image-container .Image {
+    left: 385px;
+    top: 95px;
+    width: 11%;
+    /* Loại bỏ hoạt hình mặc định */
+  }
+
+  .ExperienceText {
+    animation: rotate 3s infinite linear;
+    /* Áp dụng hoạt hình vòng quay */
+  }
+
+  .image-animation {
+    position: absolute;
+    top: 48px;
+    left: 320px;
+    animation-name: rotateImage;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: center center;
+
+  }
 
 
-/*  */
-/* ĐẶT XE NHANH */
+  @keyframes rotateImage {
+    0% {
+      transform: rotate(0deg);
+    }
 
-/* .orange-text {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* code css tạo đường chéo về chứng tôi */
+
+
+  .image-container {
+    position: relative;
+  }
+
+  .image-container::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 190px;
+    right: 20%;
+    width: 50%;
+    height: 130%;
+    transform: skew(-20deg);
+    background-color: #ff9900;
+    z-index: -1;
+  }
+
+  /* chữ số điện thoại về chúng tôi */
+
+  .hot1 {
+    left: 43%;
+    right: 19%;
+    color: #7d7d7d;
+    font-size: 16px;
+    position: absolute;
+    top: 70%;
+  }
+
+  .color1 {
     color: orange;
+    position: absolute;
+    right: 34%;
+    top: 78%;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+
+  /* ảnh 01 về chúng tôi */
+  .image01 {
+    position: absolute;
+    left: 17%;
+    top: 80%;
+    width: 132px;
+  }
+
+  /* ảnh về chúng tôi */
+  .ceo1 {
+    position: absolute;
+    right: 69%;
+    top: 70%;
+    font-size: 16px;
+    color: #7d7d7d;
+    border-radius: 50px;
+  }
+
+  /* picture vè chung toi */
+
+
+
+  .ceo101 {
+    position: relative;
+    left: -2px;
+    border-radius: 90px;
+    width: 93px;
+  }
+
+  /*  */
+
+  img.image-car1 {
+    left: -9%;
+    position: relative;
+    width: 300px;
+  }
+
+  .image-car2-container {
+    display: flex;
+  }
+
+  img.image-car2 {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    position: relative;
+    top: 84px;
+    position: relative;
+  }
+
+  /* Dịch vụ nỗi bật css */
+
+  /* CODE DỊCH VỤ NỖI BẬT */
+  .overlay-image {
+    animation-play-state: paused;
+  }
+
+  .cover-image {
+    background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 500px;
+    /* width: 1900px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(227, 215, 215);
+    top: 118px;
+    position: relative;
+  }
+
+  /* chữ màu cam */
+
+  /* carrt anhr chen anh banner dich vu noi bat */
+  .cart-service {
+    position: relative;
+    bottom: 140px;
+  }
+
+  .cover-image .text {
+    font-size: 36px;
+    position: relative;
+    top: -39%;
+  }
+
+  .cover-image .textdichvunoibat {
+    color: #f7eded;
+    position: relative;
+    top: -51px;
+    left: -50px;
+    /* Màu chữ trắng */
+  }
+
+  .container .card h2 {
+    color: #0a0909;
+    /* Màu chữ trắng */
+  }
+
+  .cover-image p {
+    font-size: 17px;
+    margin-top: -23px;
+    font-family: "Space Grotesk", sans-serif;
+    color: rgb(221, 221, 221);
+
+
+  }
+
+  /* .container {
+    display: flex;
+    justify-content: space-between;
   } */
+
+  .card {
+    width: 360px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .card-banner {}
+
+  .car-in-card {
+    width: 150%;
+    border-radius: 8px;
+
+  }
+
+  .card h2 {
+    font-size: 22px;
+    margin-left: 91px;
+    text-align: left;
+  }
+
+  .card p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 10px;
+
+
+  }
+
+
+  .button {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: rgb(190, 97, 17);
+  }
+
+
+  /* code css what we offter */
+
+  .text1 {
+
+    position: relative;
+    top: 1px;
+  }
+
+  .vuong1 {
+    position: relative;
+    top: 10px;
+  }
+
+
+  /*  */
+
+
+  /* tạo css nút chuyển trang  dịch vụ nổi bật*/
+  .card-navigation {
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-70%);
+
+  }
+
+  /* kich co anh css cart picture */
+
+  .card-image {
+    width: 100%;
+    height: auto;
+
+  }
+
+
+
+  .card-image2 {
+    width: 65%;
+    height: auto;
+    position: absolute;
+    float: right;
+    bottom: -17px;
+    right: -6%;
+    z-index: 3;
+  }
+
+  /* hiệu ứng css xe car dịch vụ nỗi bật */
+
+  .card-image2:hover {
+    animation: imageEffect 0.5s ease-in-out;
+  }
+
+  @keyframes imageEffect {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.2);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /* nút xem thêm dịch vụ nỗi bật */
+
+
+  /* Nut xem them dich vu noi bat */
+  .nutxemthem {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    top: 8px;
+    position: relative;
+    left: -555px;
+    transition: background-color 0.3s ease;
+    /* cắt nút bên phải button */
+    clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
+  }
+
+  .nutxemthem:hover {
+    background-color: black;
+    color: white;
+  }
+
+
+
+  /* canh chữ dòng chữ nỗi bật*/
+
+  .card-bottom {
+    display: inline-block;
+  }
+
+  /* code css tạo đặt carousel cart ảnh dịch vụ */
+
+
+  /* nút di chuyển trang */
+
+  .triangle-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+
+  .triangle-button {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    position: relative;
+    top: 10%;
+    left: 10%;
+  }
+
+  .arrow-left,
+  .arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-2600%);
+    background-color: orange;
+  }
+
+  .arrow-left {
+    border-right: 12px solid rgb(15, 10, 10);
+    left: 320px;
+
+  }
+
+  .arrow-right {
+    border-left: 12px solid rgb(31, 20, 20);
+    right: -1300px;
+  }
+
+  /* .container {
+    position: relative;
+  } */
+
+  .vuongvang {
+    position: absolute;
+    top: 53%;
+    left: 72%;
+    transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
+    width: 80px;
+    height: 150px;
+    background-color: #ff9900;
+    z-index: 1;
+  }
+
+  .vuongden1 {
+    position: absolute;
+    top: 65%;
+    left: 59%;
+    transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
+    width: 69px;
+    height: 120px;
+    background-color: rgb(22, 20, 14);
+    z-index: 2;
+  }
+
+  .vuongden2 {
+    position: absolute;
+    top: 66%;
+    left: 83%;
+    transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
+    width: 49px;
+    height: 120px;
+    background-color: rgb(22, 20, 14);
+    z-index: 2;
+  }
+
+
+  .card-top {
+    position: relative;
+  }
+
+  /* hiệu ứng 1 */
+
+  .vuongden1:hover {
+    animation: imageEffect 0.5s ease-in-out;
+  }
+
+  @keyframes imageEffect {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.2);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /* hiệu ứng 2 */
+
+
+  .vuongden2:hover {
+    animation: imageEffect 0.5s ease-in-out;
+  }
+
+  @keyframes imageEffect {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.2);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+  .vuongvang:hover {
+    animation: imageEffect 0.5s ease-in-out;
+  }
+
+  @keyframes imageEffect {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.2);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /* hiệu ứng dịch vụ nổi bật */
+
+  /* code hiệu ứng dịch vụ nỗi bật */
+
+  .container:hover .vuongvang,
+  .container:hover .vuongden1,
+  .container:hover .vuongden2,
+  .container:hover .card-image2,
+  .container:hover~.triangle-buttons {
+    animation: effectAnimation 0.5s ease-in-out;
+  }
+
+  @keyframes effectAnimation {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.2);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /* dau 3 chấm nút di chuyển dịch vụ nỗi bâtj */
+
+
+  .slider {
+    position: relative;
+  }
+
+  .dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #160b75;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  .dot.slick-active {
+    background-color: #000;
+  }
+
+
+  /*  */
+  .section-heading001 {
+    position: relative;
+  }
+
+  .section-heading001 h4 {
+    position: relative;
+    color: #f90;
+    padding-left: 193px;
+    display: flex;
+    line-height: 16px;
+    top: -58px;
+    font-size: 17px;
+  }
+
+  .section-heading001 h4 span,
+  .section-heading001 h4 span:before,
+  .section-heading001 h4 span::after {
+    background-color: #f90;
+    width: 5px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    top: 1%;
+  }
+
+  .section-heading001 h4 span {
+    top: 1px;
+    position: absolute;
+    left: 170px;
+    transform: skew(-20deg, 0deg);
+  }
+
+  .section-heading001 h4 span:after {
+    content: "";
+    left: -10px;
+    opacity: 0.5;
+  }
+
+  .section-heading001 h4 span:before {
+    content: "";
+    left: -20px;
+    opacity: 0.2;
+  }
+
+
+  /* choosee taxi dấu chấm */
+  .card {
+    position: relative;
+    background-color: #ffffff;
+    /* Mã màu cho màu trắng (#ffffff) */
+  }
+
+  .slick-slide {
+    border: 1px solid #ccc;
+  }
+
+  .slick-dots {
+    display: flex;
+    margin-top: 35px;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-left: 590px;
+  }
+
+  .slick-dots li {
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    cursor: pointer;
+
+  }
+
+  .slick-dots>li:not(:last-of-type) {
+    margin-right: 8px;
+  }
+
+  .slick-dots li button {
+    font-size: 0;
+    padding: 0;
+  }
+
+  .slick-dots li.slick-active {
+    background-color: #ff9900;
+    box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.5);
+  }
+
+  .slick-slide .comment p {
+    margin-bottom: 24px;
+  }
+
+  .slick-slide .user-info {
+    display: flex;
+  }
+
+  .slick-slide .user-info .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    overflow: hidden;
+
+  }
+
+  .slick-slide .user-info .avatar img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .slick-slide .company-info {
+    flex-grow: 1;
+    align-self: center;
+
+  }
+
+  /* dich vu noi bat pre */
+  .cart-service .slick-prev {
+
+    left: 100%;
+    position: absolute;
+    top: 53%;
+  }
+
+  .cart-service .slick-next {
+    left: -5%;
+    position: absolute;
+    top: 52%;
+  }
+
+  /* nút button dich vu noi bat */
+  button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /*  */
+  /* ĐẶT XE NHANH */
+
+  /* .orange-text {
+      color: orange;
+    } */
 
   .section-heading06 {
     position: relative;
   }
-  
+
   .section-heading06 h4 {
     position: relative;
     color: #f90;
-     padding-left: 63px; 
+    padding-left: 63px;
     display: flex;
     line-height: 16px;
     font-size: 15px;
@@ -2021,7 +1774,7 @@ button {
     letter-spacing: 1px;
     top: -39px;
   }
-  
+
   .section-heading06 h4 span,
   .section-heading06 h4 span:before,
   .section-heading06 h4 span::after {
@@ -2032,6 +1785,7 @@ button {
     position: absolute;
     top: 1%;
   }
+
   /* dau 3 ghach */
   .section-heading06 h4 span {
     top: -1px;
@@ -2039,19 +1793,19 @@ button {
     left: 30px;
     transform: skew(-20deg, 0deg);
   }
-  
+
   .section-heading06 h4 span:after {
     content: "";
     left: -10px;
     opacity: 0.5;
   }
-  
+
   .section-heading06 h4 span:before {
     content: "";
     left: -20px;
     opacity: 0.2;
   }
-  
+
   .section-online-booking h3 {
     left: 3px;
     font-size: 30px;
@@ -2060,7 +1814,7 @@ button {
     top: -28px;
     /* Màu chữ trắng */
   }
-  
+
   .section-online-booking::before {
     content: "";
     position: absolute;
@@ -2070,21 +1824,21 @@ button {
     width: 300px;
     background-color: #da7b0f;
   }
-  
-  
+
+
   /* đặt màu css button */
   .btn.btn-primary {
     background-color: #333333;
   }
-  
+
   /* chữ màu chữ đen button */
   .btn.btn-primary {
     color: white;
   }
-  
+
   /* clip path cắt ảnh */
   .section-online-booking::after {
-  
+
     content: "";
     position: absolute;
     top: 0;
@@ -2094,14 +1848,14 @@ button {
     background-color: #f4f5f8;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
   }
-  
+
   .section-online-booking .img-car {
     position: absolute;
     width: 653px;
     left: -513px;
     top: 1px;
   }
-  
+
   .section-online-booking {
     background-color: #1c1c1c;
     background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/texture.png');
@@ -2109,69 +1863,65 @@ button {
     position: relative;
     padding: 107px 0;
   }
-  
-  
-  
-  
   /* biểu tượng đặt xe nhanh */
-  
+
   .input-group-text-1 {
     position: absolute;
     left: 78%;
     top: 51%;
   }
-  
+
   .input-group-text-2 {
     position: absolute;
     left: -599%;
     top: 51%;
   }
-  
+
   .input-group-text-3 {
     position: absolute;
     left: 33%;
     top: 51%;
   }
-  
+
   .input-group-text-4 {
     position: absolute;
     left: 63%;
     top: 51%;
   }
-  
+
   .input-group-online-5 {
     position: absolute;
     left: 60%;
     top: 51%;
   }
-  
+
   .input-group-text-6 {
     position: absolute;
     left: -243%;
     top: -6%;
   }
-  
+
   .input-group-text-7 {
     position: absolute;
     left: 97%;
     top: 16%;
   }
-  
-  
+
+
   .input-group-text-8 {
     position: absolute;
     left: 90%;
     top: 51%;
   }
-  
+
   /* code css tạo đặt xe nhanh */
-  
+
   /* code css mauf form */
   /* form thẻ icon */
   .section-online-booking .form-field {
     position: relative;
   }
-  
+
   .section-online-booking .form-field i {
     position: absolute;
     font-size: 18px;
@@ -2181,28 +1931,12 @@ button {
     transform: translateY(-50%);
 
   }
-  
-  
-
-
-
-
-
-
-
-  
   /*  */
-  
-  
+
+
   /* khi trỏ màu cam dropdown đặt xe nhanh */
-  
-  
-  
-  
   /*  */
-  .section-online-booking .form-control
-  
-  {
+  .section-online-booking .form-control {
     font-size: 16px;
     line-height: 24px;
     padding: 14px 38px 14px 24px;
@@ -2212,105 +1946,39 @@ button {
     background-color: #333333;
     border-color: transparent;
     outline: 0;
-  
-  
-    
   }
-  
+
   .section-online-booking .form-control:focus {
     border-color: #f90;
     outline: 0;
     box-shadow: none;
     color: white;
     background-color: #333333;
-  
   }
-  
+
   .section-online-booking .form-row>[class*=col-] {
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 20px;
-  
-  } 
-  
-  
-  
-  
-  
+  }
+
   /* button đặt xe nhanh */
-  
+
   .sumit1 {
     width: 267px;
     background-color: #333333;
     height: 53px;
   }
-  
-  
-  
 
-  
   /* code css mauf icon */
-  
-  
-  
-  
+
   /* tạo kích cỡ lịch */
-  
-
-
-  .select2-container--default 
-  .select2-selection--single 
-  .select2-selection__rendered {
+  .select2-container--default .select2-selection--single .select2-selection__rendered {
     background-color: #333;
     line-height: 28px;
     height: 52px;
     color: white;
-    
-} 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
 
 /* màu button */
 /* TẠO DÒNG CHỮ CHOOSE TATXI */
@@ -2374,16 +2042,9 @@ button {
 }
 
 /* button choossee taxi */
-
-
-
 /* CARD CHOOSEETAIXI */
-
-
-
-
 /* General Styles */
- /* .container {
+/* .container {
   margin-top: 2rem;
 }  */
 
@@ -2409,123 +2070,135 @@ button {
   color: #fff;
   border: none;
 }
+
 /* card ảnh  choosseetaxi */
 
-.gia1{
+.gia1 {
   position: relative;
   right: -79px;
-  
+
 }
-.gia2{
+
+.gia2 {
   position: relative;
   right: -96px;
 }
-.gia3{
+
+.gia3 {
   position: relative;
   right: -110px;
 }
 
-.gia4{
+.gia4 {
   position: relative;
   right: -110px;
 }
 
-.gia5{
+.gia5 {
   position: relative;
-  right: -128px; 
+  right: -128px;
 }
 
-.gia6{
+.gia6 {
   position: relative;
-  right: -139px; 
-}
-.gia7{
-  position: relative;
-  right: -103px; 
-}
-.gia8{
-  position: relative;
-  right: -121px; 
-}
-.gia9{
-
-  position: relative;
-  right: -133px; 
+  right: -139px;
 }
 
-.gia10{
+.gia7 {
   position: relative;
-  right: -111px; 
+  right: -103px;
 }
-.gia11{
+
+.gia8 {
   position: relative;
-  right: -139px; 
+  right: -121px;
 }
-.gia12{
-  position: relative;
-  right: -127px;   
-}
-.gia13{
-  position: relative;
-  right: -119px;   
-}
-.gia14{
+
+.gia9 {
 
   position: relative;
-  right: -148px;  
+  right: -133px;
 }
-.gia15{
+
+.gia10 {
+  position: relative;
+  right: -111px;
+}
+
+.gia11 {
+  position: relative;
+  right: -139px;
+}
+
+.gia12 {
+  position: relative;
+  right: -127px;
+}
+
+.gia13 {
+  position: relative;
+  right: -119px;
+}
+
+.gia14 {
+
   position: relative;
   right: -148px;
 }
-.gia16{
+
+.gia15 {
+  position: relative;
+  right: -148px;
+}
+
+.gia16 {
 
   position: relative;
-  right: -111px; 
+  right: -111px;
 }
-.gia17{
+
+.gia17 {
   position: relative;
-  right: -139px; 
+  right: -139px;
 }
-.gia18{
+
+.gia18 {
   position: relative;
   right: -139px;
 }
 
 /* card chữ choosee taxi */
-.card-text1{
+.card-text1 {
 
   position: relative;
   left: -47px;
 }
 
-.card-text2{
+.card-text2 {
 
   position: relative;
   left: -64px;
 }
 
-.card-text3{
+.card-text3 {
   position: relative;
   left: -69px;
 }
 
-.card-text4{
+.card-text4 {
   position: relative;
   left: -70px;
 }
 
-.card-text5{
+.card-text5 {
   position: relative;
   left: -70px;
 }
 
-.card-text6{
+.card-text6 {
   position: relative;
   left: -70px;
 }
-
-
 
 /* choossee taxi */
 /* card right taxi */
@@ -2535,11 +2208,6 @@ button {
   top: 153px;
   width: 365px;
 }
-
-
-
-
-
 
 
 /* Cards */
@@ -2584,21 +2252,21 @@ button {
 }
 
 /* code HUYNHDAI */
-.huynhdai0{
+.huynhdai0 {
 
-    clip-path: polygon(0 0, 100% 0, 100% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
   width: 330px;
   height: 200%;
 }
 
-.huynhdai01{
+.huynhdai01 {
   position: relative;
   width: 300px;
   top: -151px;
 }
 
-.card-title01{
-color: #000;
+.card-title01 {
+  color: #000;
   position: relative;
   top: 27px;
   right: -18px;
@@ -2608,25 +2276,25 @@ color: #000;
 
 
 /* code di chuyển nút */
-
-
-  .nav-pills {
-    /* left: 806px; */
-    position: relative;
-
+.nav-pills {
+  /* left: 806px; */
+  position: relative;
 }
 
 
 /* màu chữ choossee taxi */
 /* Set the background color and text color for the active button */
 .nav-pills .nav-link.active {
-  color: #999; /* White text color */
+  color: #999;
+  /* White text color */
 }
 
 /* Set the background color and text color for the inactive buttons */
 .nav-pills .nav-link {
-  color: #999; /* White text color */
-  border-radius: 0; /* Remove the default rounded corners */
+  color: #999;
+  /* White text color */
+  border-radius: 0;
+  /* Remove the default rounded corners */
 }
 
 /* Add a hover effect to the inactive buttons */
@@ -2637,161 +2305,131 @@ color: #000;
 /*  */
 /* nút button bấm vào  choosee taxi */
 
-.nav-link1{
+.nav-link1 {
   background-color: white;
   color: #999;
   font-size: 17px;
 
   right: -759px;
-    position: relative;
-    top: 98px;
+  position: relative;
+  top: 98px;
 }
 
-
-
-
-
-
 /* Nút xem thêm choossee taxi */
-  .btn.btn-primary1 {
-    background-color:orange ;
-    height: 47px;
-    width: 305px;
-    position: relative;
-    left: -7px;
-    top: 135px;
-    
-    /* Thêm màu nền đen khi hover */
-    background-color: orange;
-    color: white; /* Thay đổi màu chữ thành trắng */
-    transition: background-color 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
-  }
-  
-  .btn.btn-primary1:hover {
-    background-color: black; /* Chuyển lại màu cam khi hover */
-    color: white; /* Chuyển lại màu chữ thành đen */
-  }
+.btn.btn-primary1 {
+  background-color: orange;
+  height: 47px;
+  width: 305px;
+  position: relative;
+  left: -7px;
+  top: 135px;
+
+  /* Thêm màu nền đen khi hover */
+  background-color: orange;
+  color: white;
+  /* Thay đổi màu chữ thành trắng */
+  transition: background-color 0.3s ease;
+  /* Thêm hiệu ứng chuyển đổi */
+}
+
+.btn.btn-primary1:hover {
+  background-color: black;
+  /* Chuyển lại màu cam khi hover */
+  color: white;
+  /* Chuyển lại màu chữ thành đen */
+}
 
 /* chu p Huynhdai */
-
-
-
-
-
-
-
-
-
-
 /* HUYNHDAI ACCENT */
-
-.card-text{
-position: absolute;
-top: 130px;
-  
+.card-text {
+  position: absolute;
+  top: 130px;
 }
 
 
 
 /* HUYNHDAI03 */
-.huynhdai03{
-
+.huynhdai03 {
   clip-path: polygon(0 0, 100% 0, 100% 100%);
   width: 330px;
   height: 200%;
 }
-.huynhdai04{
+
+.huynhdai04 {
   position: relative;
   width: 300px;
   top: -151px;
-
 }
 
 /* huynh dai chu chooosee taxi toyota */
 
-.huynhdai05{
-  clip-path: polygon(0 0, 100% 0, 100% 100%);
-  width: 330px;
-  height: 200%;
-
-}
-.huynhdai06{
-  position: relative;
-  width: 300px;
-  top: -151px;
-
-}
-
-.huynhdai07{
+.huynhdai05 {
   clip-path: polygon(0 0, 100% 0, 100% 100%);
   width: 330px;
   height: 200%;
 }
-.huynhdai08{
+
+.huynhdai06 {
   position: relative;
   width: 300px;
   top: -151px;
-
 }
 
+.huynhdai07 {
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  width: 330px;
+  height: 200%;
+}
 
+.huynhdai08 {
+  position: relative;
+  width: 300px;
+  top: -151px;
+}
 
-
-
-
-
-
-.card-title02{
-
+.card-title02 {
   position: relative;
   top: 25px;
   right: -15px;
   font-weight: bold;
-color: #000;
+  color: #000;
 }
 
- /* toyota taxi  */
+/* toyota taxi  */
 
 /* dong chu p huynh dai */
 .card-body {
   top: -137px;
   position: relative;
-
   height: 176px;
   width: 337px;
 }
- /* phan cuoi toyota choosse card */
-.card-title6{
+
+/* phan cuoi toyota choosse card */
+.card-title6 {
   left: 9px;
   position: relative;
   top: 25px;
   color: #000;
 }
-.card-title7{
+
+.card-title7 {
   left: 13px;
   position: relative;
   top: 25px;
   color: #000;
 }
 
-
-
 /* chữ p choosee taxi */
-.chooseetaxi1{
-
-position: relative;
-top: 92px;
-
+.chooseetaxi1 {
+  position: relative;
+  top: 92px;
 }
 
-.chooseetaxi2{
-
-
-
+.chooseetaxi2 {
   position: relative;
   top: 78px;
 }
-
 
 
 /* call us now */
@@ -2868,10 +2506,6 @@ top: 92px;
   left: 120px;
   font-weight: bold;
 }
-
-
-
-
 
 /* code css kích cỡ chữ */
 .custom-image {
@@ -2970,24 +2604,6 @@ top: 145px;
   top: 127px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* choosee taxi dấu chấm */
 
 
@@ -3081,8 +2697,6 @@ top: 145px;
 
 
 
-
-
 /*  */
 
 .btn {
@@ -3145,28 +2759,28 @@ top: 145px;
 
 /* Định dạng cho các nút dot */
 
-  
-  .slick-dots li {
-    padding: 0 8px;
-  }
-  
-  .slick-dots li button {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #333;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .slick-dots li.slick-active button {
-    background-color: #fff;
-  }
-     
+
+.slick-dots li {
+  padding: 0 8px;
+}
+
+.slick-dots li button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #fff;
+}
 
 
 
-     
+
+
 
 
 /*  */
@@ -3218,7 +2832,7 @@ top: 145px;
 .container {
   /* display: flex; */
   justify-content: space-between;
-} 
+}
 
 .column {
   margin-right: 70px;
@@ -3306,7 +2920,7 @@ h2 {
   color: black;
   font-family: "Space Grotesk", sans-serif;
   left: -3px;
-  position: relative; 
+  position: relative;
 }
 
 /* dòng chữ xuống hàng get ridek*/
@@ -3349,9 +2963,9 @@ h2 {
 /* dòng chữ Get the ridek */
 
 
-.new1{
+.new1 {
   position: relative;
-  left:  80px;
+  left: 80px;
 }
 
 /* chữ màu cam ridek */
@@ -3516,6 +3130,7 @@ h2 {
   left: -20px;
   opacity: 0.2;
 }
+
 /* dấu ghạch ngang màu cam khách hàng trải nghiệm 1000 */
 .hinh1-icon {
   background-color: #f90;
@@ -3570,7 +3185,7 @@ h2 {
 
 
 /* dòng chữ 3 thông tin công ty */
-.table-heading03{
+.table-heading03 {
   color: white;
   font-size: 16px;
   margin-top: 0;
@@ -3578,6 +3193,7 @@ h2 {
   top: -21px;
   right: 45px;
 }
+
 /* code loi ich dat xe hơn 1000 về dấu ghạch */
 
 
@@ -3611,7 +3227,7 @@ h2 {
   content: "";
   left: -10px;
   opacity: 0.5;
-  
+
 }
 
 .section-heading101 h4 span:before {
@@ -3622,7 +3238,7 @@ h2 {
 }
 
 /* code loi ich dat xe heading101 */
-.chon1{
+.chon1 {
   position: relative;
   top: 26px;
   right: -16px;
@@ -3660,7 +3276,6 @@ h1 {
   text-align: center;
   font-family: "Space Grotesk", sans-serif;
 }
-
 
 
 /* code tạo bảng slide carousel hon 1000 */
@@ -3727,7 +3342,7 @@ p {
   width: 574px;
   height: 256px;
   top: 122px;
-    position: relative;
+  position: relative;
 }
 
 .right-column {
@@ -3739,13 +3354,13 @@ p {
 }
 
 .table-heading01 {
-    color: white;
-    font-size: 30px;
-    margin-top: 0;
-    position: relative;
-    top: -35px;
-    left: -103px;
-    font-weight: bold;
+  color: white;
+  font-size: 30px;
+  margin-top: 0;
+  position: relative;
+  top: -35px;
+  left: -103px;
+  font-weight: bold;
 }
 
 .company-info01 {
@@ -3755,36 +3370,31 @@ p {
   top: -37px;
   font-size: 16px;
 }
-.company-info02{
+
+.company-info02 {
   right: -60px;
   color: white;
   position: relative;
   top: -27px;
   font-size: 16px;
 }
-.company-info03{
+
+.company-info03 {
   right: -65px;
   color: white;
   position: relative;
   top: -27px;
   font-size: 16px;
 }
+
 /* code hon 1000 kh tiet kiem chi phi */
 
-.table-heading02{
+.table-heading02 {
   position: relative;
   color: white;
   font-size: 16px;
   left: -49px;
 }
-
-
-
-
-
-
-
-
 
 .icon {
   width: 50px;
@@ -3801,7 +3411,8 @@ p {
 /* code Diệu lê */
 .table-1 {
   position: relative;
-  background-color: #ffffff; /* Mã màu cho màu trắng (#ffffff) */
+  background-color: #ffffff;
+  /* Mã màu cho màu trắng (#ffffff) */
   /* border: 1px solid #ccc;  */
 }
 
@@ -3827,7 +3438,7 @@ p {
 
 }
 
-.table-1 .slick-dots > li:not(:last-of-type) {
+.table-1 .slick-dots>li:not(:last-of-type) {
   margin-right: 8px;
 }
 
@@ -3884,50 +3495,14 @@ p {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* font chữ 1000 */
 .satisfaction {
   font-size: 16px;
-
-
 }
 
 /* code di chuyển trang */
 
 /* code bảng 1000 */
-
-
-
 /* nút 3 chấm hơn 1000 */
 .dots-container {
   text-align: center;
@@ -3942,38 +3517,10 @@ p {
   background-color: #bbb;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Tùy chỉnh màu sắc của dot đã được chọn */
 .dot.active {
   background-color: #555;
 }
-
-
-
-
-
-
 /*  */
 /*  */
 .logo {
@@ -3985,15 +3532,9 @@ p {
   top: -57px;
   position: relative;
 }
-
-
-
 .company-info p {
   margin: 0;
 }
-
-
-
 .icon-telephone1::before {
   content: "";
   position: absolute;
@@ -4011,29 +3552,22 @@ p {
 }
 
 /* dien thoai */
-.hotline-image{
+.hotline-image {
   left: 43px;
-    position: relative;
-    top: 53px;
+  position: relative;
+  top: 53px;
 }
-
-
 
 /*  */
 /* thanh nav màu cam phần liên hệ */
 .white-text001 {
-
   color: white;
   position: relative;
   transform: translateX(107%);
   position: absolute;
   right: -3%;
   top: -46;
-
 }
-
-
-
 
 /*  */
 /* code tạo tin tức sự kiện chữ màu */
@@ -4045,22 +3579,15 @@ p {
 .card-text {
   color: rgb(9, 9, 11);
 }
+
 /* CARD TIN TỨC SỰ KIỆN */
-.card{
+.card {
   position: absolute;
   top: 10px;
-
   width: 365px;
-
-
-
-  
 }
 
-
 /* màu chữ cam tin tức */
-
-
 .section-heading090 {
   position: relative;
 }
@@ -4120,22 +3647,17 @@ p {
   margin-left: 10px;
 }
 
-
-
-
-.tintuc{
+.tintuc {
   position: relative;
   top: -13px;
-  
+
 }
+
 /* chu h1 */
-.tintuc1{
+.tintuc1 {
   position: relative;
   top: 11px;
 }
-
-
-
 
 /* kích cỡ nút tin tức sự kiện */
 
@@ -4150,45 +3672,33 @@ p {
 
 }
 
-
-
-
 /* chữ card  */
-.card-title000{
+.card-title000 {
   position: relative;
   top: 135px;
   color: #000;
 }
-
-
-
 
 /* tintuc  */
 /* chỉnh chữ lên xuống tin tức */
 
 
 .card-text-0 {
-  font-family: Arial, sans-serif; /* Thiết lập font chữ */
-  font-size: 16px; /* Thiết lập kích thước chữ */
-  color: #333333; /* Thiết lập màu chữ */
-  line-height: 1.5; /* Thiết lập độ cao dòng */
-  text-align: left; /* Thiết lập căn chỉnh nội dung */
-  margin-top: 143px; /* Tạo khoảng cách trên */
-  margin-bottom: 10px; /* Tạo khoảng cách dưới */
+  font-family: Arial, sans-serif;
+  /* Thiết lập font chữ */
+  font-size: 16px;
+  /* Thiết lập kích thước chữ */
+  color: #333333;
+  /* Thiết lập màu chữ */
+  line-height: 1.5;
+  /* Thiết lập độ cao dòng */
+  text-align: left;
+  /* Thiết lập căn chỉnh nội dung */
+  margin-top: 143px;
+  /* Tạo khoảng cách trên */
+  margin-bottom: 10px;
+  /* Tạo khoảng cách dưới */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer */
 .background-image {
@@ -4198,6 +3708,7 @@ p {
   background-position: center;
   height: 580px;
 }
+
 .container {
   display: flex;
   align-items: center;
@@ -4241,7 +3752,7 @@ p {
 .subscribe {
   margin-top: 20px;
 
-  
+
 }
 
 .contact-info p {
@@ -4264,7 +3775,7 @@ p {
 
 .description {
   position: absolute;
-  top:39px;
+  top: 39px;
   left: 134px;
   color: white;
   font-family: "Space Grotesk", sans-serif;
@@ -4333,6 +3844,7 @@ button {
   font-weight: 700;
   line-height: 1;
 }
+
 /*  */
 
 .hotline-image {
@@ -4360,8 +3872,6 @@ button {
   top: 32%;
   left: 65px;
 }
-
-
 
 
 /*  */
@@ -4406,85 +3916,126 @@ button {
 
 /*Địa chỉ footer  */
 .contact-info {
-  color: #ffffff; /* Màu trắng cho toàn bộ đoạn text */
+  color: #ffffff;
+  /* Màu trắng cho toàn bộ đoạn text */
   font-size: 16px;
   font-weight: normal;
 }
 
 .address-label {
-  color: #ff9900; /* Màu cam cho "Địa chỉ:" */
+  color: #ff9900;
+  /* Màu cam cho "Địa chỉ:" */
   font-weight: bold;
 }
 
 .address-text {
   /* Không cần định nghĩa thêm, sẽ kế thừa màu trắng từ .contact-info */
 }
- /* code css ghạch chân liên hệ footer */
- .contact-label {
-  color: #333333; /* Màu chữ xám */
-  font-size: 18px; /* Kích thước chữ */
-  font-weight: bold; /* Độ đậm chữ */
-  display: inline-block; /* Để tạo kích thước theo nội dung */
-  position: relative; /* Để tạo vị trí tương đối cho gạch chân */
-  padding-bottom: 5px; /* Khoảng cách từ chữ đến gạch chân */
+
+/* code css ghạch chân liên hệ footer */
+.contact-label {
+  color: #333333;
+  /* Màu chữ xám */
+  font-size: 18px;
+  /* Kích thước chữ */
+  font-weight: bold;
+  /* Độ đậm chữ */
+  display: inline-block;
+  /* Để tạo kích thước theo nội dung */
+  position: relative;
+  /* Để tạo vị trí tương đối cho gạch chân */
+  padding-bottom: 5px;
+  /* Khoảng cách từ chữ đến gạch chân */
 }
 
 .contact-label::after {
-  content: ""; /* Tạo nội dung rỗng */
-  position: absolute; /* Đặt gạch chân tuyệt đối so với .contact-label */
-  left: 0; /* Căn trái */
-  bottom: 0; /* Căn dưới */
-  width: 57%; /* Chiều rộng bằng 100% của .contact-label */
-  height: 3px; /* Chiều cao gạch chân */
-  background-color: #ff6b00; /* Màu cam */
+  content: "";
+  /* Tạo nội dung rỗng */
+  position: absolute;
+  /* Đặt gạch chân tuyệt đối so với .contact-label */
+  left: 0;
+  /* Căn trái */
+  bottom: 0;
+  /* Căn dưới */
+  width: 57%;
+  /* Chiều rộng bằng 100% của .contact-label */
+  height: 3px;
+  /* Chiều cao gạch chân */
+  background-color: #ff6b00;
+  /* Màu cam */
 }
 
 /* code css tạo ghạch chân  mở cửa*/
 
-.opening-label{
-  color: #333333; /* Màu chữ xám */
-  font-size: 18px; /* Kích thước chữ */
-  font-weight: bold; /* Độ đậm chữ */
-  display: inline-block; /* Để tạo kích thước theo nội dung */
-  position: relative; /* Để tạo vị trí tương đối cho gạch chân */
-  padding-bottom: 5px; /* Khoảng cách từ chữ đến gạch chân */
+.opening-label {
+  color: #333333;
+  /* Màu chữ xám */
+  font-size: 18px;
+  /* Kích thước chữ */
+  font-weight: bold;
+  /* Độ đậm chữ */
+  display: inline-block;
+  /* Để tạo kích thước theo nội dung */
+  position: relative;
+  /* Để tạo vị trí tương đối cho gạch chân */
+  padding-bottom: 5px;
+  /* Khoảng cách từ chữ đến gạch chân */
 
 }
 
-.opening-label::after{
+.opening-label::after {
 
-  content: ""; /* Tạo nội dung rỗng */
-  position: absolute; /* Đặt gạch chân tuyệt đối so với .contact-label */
-  left: 0; /* Căn trái */
-  bottom: 0; /* Căn dưới */
-  width: 57%; /* Chiều rộng bằng 100% của .contact-label */
-  height: 3px; /* Chiều cao gạch chân */
-  background-color: #ff6b00; /* Màu cam */
+  content: "";
+  /* Tạo nội dung rỗng */
+  position: absolute;
+  /* Đặt gạch chân tuyệt đối so với .contact-label */
+  left: 0;
+  /* Căn trái */
+  bottom: 0;
+  /* Căn dưới */
+  width: 57%;
+  /* Chiều rộng bằng 100% của .contact-label */
+  height: 3px;
+  /* Chiều cao gạch chân */
+  background-color: #ff6b00;
+  /* Màu cam */
 }
+
 /* code ghạch chân footer  liên kết */
 
 
-.links-label{
-  color: #333333; /* Màu chữ xám */
-  font-size: 18px; /* Kích thước chữ */
-  font-weight: bold; /* Độ đậm chữ */
-  display: inline-block; /* Để tạo kích thước theo nội dung */
-  position: relative; /* Để tạo vị trí tương đối cho gạch chân */
-  padding-bottom: 5px; /* Khoảng cách từ chữ đến gạch chân */
+.links-label {
+  color: #333333;
+  /* Màu chữ xám */
+  font-size: 18px;
+  /* Kích thước chữ */
+  font-weight: bold;
+  /* Độ đậm chữ */
+  display: inline-block;
+  /* Để tạo kích thước theo nội dung */
+  position: relative;
+  /* Để tạo vị trí tương đối cho gạch chân */
+  padding-bottom: 5px;
+  /* Khoảng cách từ chữ đến gạch chân */
 
 }
 
-.links-label::after{
-  content: ""; /* Tạo nội dung rỗng */
-  position: absolute; /* Đặt gạch chân tuyệt đối so với .contact-label */
-  left: 0; /* Căn trái */
-  bottom: 0; /* Căn dưới */
-  width: 57%; /* Chiều rộng bằng 100% của .contact-label */
-  height: 3px; /* Chiều cao gạch chân */
-  background-color: #ff6b00; /* Màu cam */
+.links-label::after {
+  content: "";
+  /* Tạo nội dung rỗng */
+  position: absolute;
+  /* Đặt gạch chân tuyệt đối so với .contact-label */
+  left: 0;
+  /* Căn trái */
+  bottom: 0;
+  /* Căn dưới */
+  width: 57%;
+  /* Chiều rộng bằng 100% của .contact-label */
+  height: 3px;
+  /* Chiều cao gạch chân */
+  background-color: #ff6b00;
+  /* Màu cam */
 }
-
-
 
 .links-info {
   margin-bottom: 5px;
@@ -4561,9 +4112,7 @@ button {
 }
 
 footer {
-position: relative;
-
-
+  position: relative;
 }
 
 
@@ -4571,14 +4120,14 @@ position: relative;
 .icon-car {
   display: flex;
   justify-content: space-between;
-  align-items:flex-end;
+  align-items: flex-end;
   width: 100%;
   /* height: 308px; */
   overflow: hidden;
   /* top: 81px; */
   position: absolute;
-bottom: 42px;
-left: 0;
+  bottom: 42px;
+  left: 0;
 }
 
 .icon-car .car1 {
@@ -4648,7 +4197,6 @@ img.image-car2 {
   justify-content: flex-end;
   align-self: flex-end;
   position: relative;
-
   top: 84px;
   position: relative;
 }
@@ -4656,33 +4204,10 @@ img.image-car2 {
 .ceo {
   border-radius: 100%;
   width: 14%;
-
 }
-
 .datxebutton {
   left: 94%;
   width: 353px;
   top: 37%;
   position: absolute;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
