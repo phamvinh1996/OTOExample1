@@ -1496,8 +1496,16 @@ img.image-car2 {
   font-size: 16px;
   line-height: 26px;
   margin-left: 10px;
+ 
 
 }
+
+
+
+
+
+
+
 
 .button {
   padding: 10px 20px;
@@ -2523,8 +2531,8 @@ button {
 /* card right taxi */
 .card {
   right: -63px;
-  position: absolute;
-  top: 10px;
+  position: relative;
+  top: 153px;
   width: 365px;
 }
 
@@ -2956,7 +2964,11 @@ top: 145px;
 }
 
 
-
+.hotline-image1{
+  left: -222px;
+  position: relative;
+  top: 127px;
+}
 
 
 
@@ -3169,7 +3181,7 @@ top: 145px;
 }
 
 .xeoto {
-  margin-left: 189px;
+  margin-left: -79px;
   position: absolute;
   top: 35%;
 }
@@ -3329,7 +3341,7 @@ h2 {
 .overlay-image {
   position: relative;
 
-  left: 622px;
+  left: 309px;
   top: 69px;
   /* Giá trị số âm để di chuyển hình ảnh lên trên */
 }
