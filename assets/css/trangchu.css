@@ -85,11 +85,6 @@
 
 /* logo  RIDEK... hotline...*/
 
-.container {
-  display: flex;
-  align-items: center;
-}
-
 /* khoảngcach */
 .logo-container {
   margin-right: 383px;
@@ -108,9 +103,11 @@
 }
 
 .contact-info {
-  display: flex;
-  align-items: center;
 
+}
+
+.contact-info span {
+  display: block;
 }
 
 .contact-item {
@@ -199,13 +196,6 @@
     /* Áp dụng clip-path */
     z-index: -1;
     /* Đảm bảo pseudo-element hiển thị phía sau phần tử navbar */
-
-  }
-
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
   }
 
@@ -549,10 +539,6 @@
         background-color: rgb(17, 16, 14);
         z-index: 1;
       }
-    
-      .container {
-        position: relative;
-      }
   
       .chunhatden {
         position: absolute;
@@ -866,18 +852,6 @@
   }
 
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  h1,
-  p {
-    flex-basis: 100%;
-    color: #000;
-  }
-
-
 
   /* hiệu ứng ảnh về chúng tôi */
 
@@ -888,17 +862,7 @@
 
   }
 
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   /* thanh nav trang chu menu ảnh logo */
-  img {
-    width: 190px;
-    height: auto;
-  }
 
   /* giới thiệu về chững tôi  chữ màu cam*/
 
@@ -953,11 +917,6 @@
 
 
   /*  Code CSS VỀ CHÚNG TÔI */
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-
-  }
 
 
   /* thẻ chữ book you */
@@ -991,18 +950,6 @@
   }
 
   /* code css chữ về chúng tôi */
-  .container p {
-    z-index: 1;
-    flex-direction: column;
-    align-items: center;
-
-  }
-
-  .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
   /*  */
 
@@ -1022,18 +969,6 @@
     margin-bottom: 20px;
     line-height: 42px;
 
-  }
-
-  h1,
-  p {
-    flex-basis: 100%;
-    color: #000;
-  }
-
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .image {
@@ -1196,6 +1131,7 @@
     position: relative;
     top: 84px;
     position: relative;
+    width: 196px;
   }
 
   /* Dịch vụ nỗi bật css */
@@ -1263,7 +1199,6 @@
   } */
 
   .card {
-    width: 360px;
     background-color: #f2f2f2;
     padding: 20px;
     border-radius: 8px;
@@ -1281,15 +1216,6 @@
     font-size: 22px;
     margin-left: 91px;
     text-align: left;
-  }
-
-  .card p {
-    text-align: left;
-    font-size: 16px;
-    line-height: 26px;
-    margin-left: 10px;
-
-
   }
 
 
@@ -2002,10 +1928,8 @@
 .section-heading07 h4 {
   position: relative;
   color: #f90;
-  padding-left: 797px;
   display: flex;
   line-height: 16px;
-  top: 76px;
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -2025,7 +1949,6 @@
 .section-heading07 h4 span {
   top: 1px;
   position: absolute;
-  left: 753px;
   transform: skew(-20deg, 0deg);
 }
 
@@ -2202,20 +2125,12 @@
 
 /* choossee taxi */
 /* card right taxi */
-.card {
-  right: -63px;
-  position: relative;
-  top: 153px;
-  width: 365px;
-}
 
 
 /* Cards */
 .card {
   border: none;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  margin-bottom: 2rem;
-  top: 117px;
   position: relative;
 }
 
@@ -2255,14 +2170,10 @@
 .huynhdai0 {
 
   clip-path: polygon(0 0, 100% 0, 100% 100%);
-  width: 330px;
-  height: 200%;
 }
 
 .huynhdai01 {
   position: relative;
-  width: 300px;
-  top: -151px;
 }
 
 .card-title01 {
@@ -2309,20 +2220,12 @@
   background-color: white;
   color: #999;
   font-size: 17px;
-
-  right: -759px;
   position: relative;
-  top: 98px;
 }
 
 /* Nút xem thêm choossee taxi */
 .btn.btn-primary1 {
   background-color: orange;
-  height: 47px;
-  width: 305px;
-  position: relative;
-  left: -7px;
-  top: 135px;
 
   /* Thêm màu nền đen khi hover */
   background-color: orange;
@@ -2398,12 +2301,6 @@
 /* toyota taxi  */
 
 /* dong chu p huynh dai */
-.card-body {
-  top: -137px;
-  position: relative;
-  height: 176px;
-  width: 337px;
-}
 
 /* phan cuoi toyota choosse card */
 .card-title6 {
@@ -2421,15 +2318,6 @@
 }
 
 /* chữ p choosee taxi */
-.chooseetaxi1 {
-  position: relative;
-  top: 92px;
-}
-
-.chooseetaxi2 {
-  position: relative;
-  top: 78px;
-}
 
 
 /* call us now */
@@ -2439,10 +2327,6 @@
   background-repeat: no-repeat;
   position: relative;
   padding: 100px 0;
-}
-
-.container {
-  text-align: center;
 }
 
 .title {
@@ -2464,10 +2348,6 @@
   position: relative;
   padding: 40px 0;
 
-}
-
-.container {
-  text-align: center;
 }
 
 .title {
@@ -2825,13 +2705,7 @@ top: 145px;
 .section-online-book {
   background-color: #f2f2f2;
   padding: 30px;
-  top: 154px;
   position: relative;
-}
-
-.container {
-  /* display: flex; */
-  justify-content: space-between;
 }
 
 .column {
@@ -2848,13 +2722,7 @@ h2 {
 
 p {
   font-size: 17px;
-  margin-bottom: 27px;
   color: #000;
-  text-align: center;
-  display: inline-block;
-
-
-  text-align: left;
   /* white-space: pre-line; */
   font-family: "Space Grotesk", sans-serif;
 
@@ -3265,11 +3133,6 @@ h2 {
 }
 
 /*  */
-.container {
-  background-image: url("");
-  background-size: 50%;
-  background-position: center;
-}
 
 h1 {
   color: rgb(15, 11, 11);
@@ -3581,12 +3444,6 @@ p {
 }
 
 /* CARD TIN TỨC SỰ KIỆN */
-.card {
-  position: absolute;
-  top: 18px;
-  width: 365px;
-}
-
 /* màu chữ cam tin tức */
 .section-heading090 {
   position: relative;
@@ -3638,14 +3495,6 @@ p {
 
 /* Tin tức sự kiện */
 /* chữ */
-.card p {
-  top: 5px;
-  position: relative;
-  text-align: left;
-  font-size: 16px;
-  line-height: 26px;
-  margin-left: 10px;
-}
 
 .tintuc {
   position: relative;
@@ -3709,11 +3558,6 @@ p {
   height: 580px;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-}
-
 .logo {
   flex: 0 0 auto;
 
@@ -3726,11 +3570,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.container {
-  color: #fff;
-  text-align: center;
 }
 
 .logo-image {
@@ -3881,22 +3720,7 @@ button {
   text-align: center;
 }
 
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
 /* code css tạo hàng chữ địa chỉ, mở cửa, liên kết */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.col {
-  flex-basis: 25%;
-  padding: 10px;
-}
 
 .contact-label,
 .opening-label,
@@ -4210,4 +4034,55 @@ img.image-car2 {
   width: 353px;
   top: 37%;
   position: absolute;
+}
+
+/* Section Choose Your Taxi */
+
+.choose-your-taxi {
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+.choose-your-taxi .section-heading07 h4 {
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.choose-your-taxi .section-heading07 h4 span {
+  position: relative;
+  margin-right: 10px;
+}
+
+.choose-your-taxi h1 {
+  margin-bottom: 24px;
+}
+
+.choose-your-taxi .chooseetaxi1 {
+  max-width: 50%;
+  text-align: center;
+  margin: 0 auto 45px auto;
+}
+
+.choose-your-taxi .nav-pills {
+  justify-content: center;
+}
+
+.choose-your-taxi .huynhdai01 {
+  position: absolute;
+  top: 60px;
+  left: 24px;
+  width: calc(100% - 48px);
+}
+
+.choose-your-taxi .btn.btn-primary1 {
+  width: 100%;
+  border-radius: 0;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 11px 16px;
+}
+
+.choose-your-taxi .card-body p {
+  display: flex;
+  justify-content: space-between;
 }
