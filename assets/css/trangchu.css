@@ -1620,7 +1620,7 @@ img.image-car2 {
   font-size: 15px;
   top: 8px;
 position: relative;
-left: -418px;
+left: -555px;
   transition: background-color 0.3s ease;
     /* cắt nút bên phải button */
  clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
@@ -4112,7 +4112,7 @@ p {
 /* Tin tức sự kiện */
 /* chữ */
 .card p {
-  top: -29px;
+  top: 5px;
   position: relative;
   text-align: left;
   font-size: 16px;
@@ -4173,7 +4173,7 @@ p {
   color: #333333; /* Thiết lập màu chữ */
   line-height: 1.5; /* Thiết lập độ cao dòng */
   text-align: left; /* Thiết lập căn chỉnh nội dung */
-  margin-top: 173px; /* Tạo khoảng cách trên */
+  margin-top: 143px; /* Tạo khoảng cách trên */
   margin-bottom: 10px; /* Tạo khoảng cách dưới */
 }
 
