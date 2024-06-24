@@ -4007,6 +4007,167 @@ p {
 
 
 
+/*  */
+/* thanh nav màu cam phần liên hệ */
+.white-text001 {
+
+  color: white;
+  position: relative;
+  transform: translateX(107%);
+  position: absolute;
+  right: -3%;
+  top: -46;
+
+}
+
+
+
+
+/*  */
+/* code tạo tin tức sự kiện chữ màu */
+.card-title {
+  color: rgb(14, 11, 11);
+
+}
+
+.card-text {
+  color: rgb(9, 9, 11);
+}
+/* CARD TIN TỨC SỰ KIỆN */
+.card{
+  position: absolute;
+  top: 10px;
+
+  width: 365px;
+
+
+
+  
+}
+
+
+/* màu chữ cam tin tức */
+
+
+.section-heading090 {
+  position: relative;
+}
+
+.section-heading090 h4 {
+  position: relative;
+  color: #f90;
+  padding-left: 883px;
+  display: flex;
+  line-height: 16px;
+  top: 15px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+}
+
+.section-heading090 h4 span,
+.section-heading090 h4 span:before,
+.section-heading090 h4 span::after {
+  background-color: #f90;
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+}
+
+.section-heading090 h4 span {
+  top: 1px;
+  position: absolute;
+  left: 860px;
+  transform: skew(-20deg, 0deg);
+
+}
+
+.section-heading090 h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+}
+
+.section-heading090 h4 span:before {
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+}
+
+/* Tin tức sự kiện */
+/* chữ */
+.card p {
+  top: -29px;
+  position: relative;
+  text-align: left;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 10px;
+}
+
+
+
+
+.tintuc{
+  position: relative;
+  top: -13px;
+  
+}
+/* chu h1 */
+.tintuc1{
+  position: relative;
+  top: 11px;
+}
+
+
+
+
+/* kích cỡ nút tin tức sự kiện */
+
+.card .custom-button {
+  position: absolute;
+  bottom: 20px;
+  left: 25%;
+  transform: translateX(-70%);
+  width: 100px;
+  height: 50px;
+  top: 171%;
+
+}
+
+
+
+
+/* chữ card  */
+.card-title000{
+  position: relative;
+  top: 135px;
+  color: #000;
+}
+
+
+
+
+/* tintuc  */
+/* chỉnh chữ lên xuống tin tức */
+
+
+.card-text-0 {
+  font-family: Arial, sans-serif; /* Thiết lập font chữ */
+  font-size: 16px; /* Thiết lập kích thước chữ */
+  color: #333333; /* Thiết lập màu chữ */
+  line-height: 1.5; /* Thiết lập độ cao dòng */
+  text-align: left; /* Thiết lập căn chỉnh nội dung */
+  margin-top: 173px; /* Tạo khoảng cách trên */
+  margin-bottom: 10px; /* Tạo khoảng cách dưới */
+}
+
+
+
+
 
 
 
