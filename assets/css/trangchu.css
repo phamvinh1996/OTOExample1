@@ -3760,8 +3760,8 @@ button {
   margin-right: 10px;
   /* Điều chỉnh khoảng cách giữa hình ảnh và văn bản */
   position: absolute;
-  top: 32%;
-  left: 65px;
+  top: 14%;
+  left: 90px;
 }
 
 
@@ -3936,8 +3936,8 @@ button {
   cursor: pointer;
   width: 130px;
   height: 50px;
-  top: 59%;
-  left: 5%;
+  top: 50%;
+  left: 4%;
   position: absolute;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
 }
