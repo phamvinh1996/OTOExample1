@@ -2645,7 +2645,7 @@ top: 145px;
 }
 
 .slick-dots li button {
-  width: 10px;
+  /* width: 10px; */
   height: 10px;
   border-radius: 50%;
   background-color: #333;
