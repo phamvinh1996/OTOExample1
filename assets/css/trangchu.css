@@ -92,6 +92,9 @@
 
 /* logo */
 .logo-brand {
+  
+  top: 56px;
+  position: relative;
   width: 170px;
 }
 
@@ -2886,6 +2889,55 @@ h2 {
   left: -20px;
   opacity: 0.2;
 }
+
+
+
+
+
+
+/* HotLine, Emeail, adress hàng ngang */
+
+
+
+.logo-container {
+  order: 1;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: -421px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.contact-item a {
+  margin-right: 10px;
+}
+
+.contact-item .text,
+.contact-item .text1,
+.contact-item .text02,
+.contact-item .text03 {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
