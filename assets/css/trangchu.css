@@ -2904,10 +2904,10 @@ h2 {
 }
 
 .contact-info {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   position: relative;
-  right: -421px;
+  /* right: -421px; */
 }
 
 .contact-item {
@@ -3802,6 +3802,8 @@ button {
   color: #ff9900;
   /* Màu cam cho "Địa chỉ:" */
   font-weight: bold;
+
+ 
 }
 
 .address-text {
