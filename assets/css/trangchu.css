@@ -1316,7 +1316,7 @@
     font-size: 15px;
     top: 8px;
     position: relative;
-    left: -555px;
+    left: -863px;
     transition: background-color 0.3s ease;
     /* cắt nút bên phải button */
     clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
