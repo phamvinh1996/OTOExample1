@@ -2904,10 +2904,10 @@ h2 {
 }
 
 .contact-info {
-  /* display: flex; */
+  display: flex;
   align-items: center;
   position: relative;
-  /* right: -421px; */
+  right: -421px;
 }
 
 .contact-item {
@@ -3076,10 +3076,10 @@ h2 {
 /*   lợi ích đặt xe hon 1000 */
 /* code icon  */
 .custom-size {
-  top: 107px;
+  top: 87px;
   font-size: 71px;
   position: relative;
-  left: -192px;
+  left:  -25px;
   color: white;
 }
 
