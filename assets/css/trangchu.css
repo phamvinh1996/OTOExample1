@@ -1905,9 +1905,21 @@
   .select2-container--default .select2-selection--single .select2-selection__rendered {
     background-color: #333;
     line-height: 28px;
-    height: 52px;
+    /* height: 52px; */
     color: white;
   }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* màu button */
 /* TẠO DÒNG CHỮ CHOOSE TATXI */
@@ -4219,7 +4231,9 @@ display: block;
   top: 10px;
   width: 10px;
 }
-
+.logo01{
+  width: 188px;
+}
 
 
 
